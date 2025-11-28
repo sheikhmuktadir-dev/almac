@@ -1,0 +1,16 @@
+.section {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.sectionRelative {
+  position: relative;
+  z-index: 10;
+}
+
+.sectionSticky {
+  position: sticky;
+  top: 0;
+  z-index: 0;
+}

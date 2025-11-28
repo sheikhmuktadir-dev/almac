@@ -1,0 +1,54 @@
+{
+  "socialLinks": [
+    {
+      "url": "https://instagram.com/almacestate",
+      "icon": "FaInstagram"
+    },
+    {
+      "url": "https://facebook.com/almacestate",
+      "icon": "FaFacebookF"
+    },
+    {
+      "url": "https://x.com/almacestate",
+      "icon": "FaXTwitter"
+    },
+    {
+      "url": "https://youtube.com/@almacestate",
+      "icon": "AiOutlineYoutube"
+    }
+  ],
+  "quickLinks": [
+    { "label": "Home", "url": "/" },
+    { "label": "Properties", "url": "/properties" },
+    { "label": "About Almac", "url": "/about" },
+    { "label": "Contact Us", "url": "/contact" }
+  ],
+
+  "livingExperiences": [
+    { "label": "Dubai Living", "url": "/dubai-living" },
+    { "label": "Beachfront", "url": "/beachfront" },
+    { "label": "Golf Course", "url": "/golf-course" },
+    { "label": "Downtown", "url": "/downtown" },
+    { "label": "Green Nature Living", "url": "/green-living" }
+  ],
+
+  "mediaCenter": [
+    { "label": "News", "url": "/news" },
+    { "label": "Reports", "url": "/reports" },
+    { "label": "Blog", "url": "/blog" }
+  ],
+
+  "contact": {
+    "address": "Office 121, 8th Floor, Emaar Square 3 Downtown, Dubai",
+    "phone": "+971587772622",
+    "email": "hey@almacgroup.com"
+  },
+
+  "policies": [
+    { "label": "Terms and conditions", "url": "/terms" },
+    { "label": "Privacy statement", "url": "/privacy" },
+    { "label": "Cookie policy", "url": "/cookies" }
+  ],
+
+  "copyright": "© Copyright 2025. Almac Real Estate. All rights reserved."
+}

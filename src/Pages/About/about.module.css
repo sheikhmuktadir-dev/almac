@@ -1,0 +1,197 @@
+.lagacySection {
+  position: relative;
+  max-width: 100%;
+  height: var(--about-height);
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--section-spcae-top-large);
+  transform: padding 0.4s ease;
+}
+
+.lagacySectionFull {
+  padding: 0;
+}
+
+.lagacyImageArea {
+  position: relative;
+  max-width: var(--about-lagacy-image-width);
+  z-index: 10;
+  height: var(--about-lagacy-image-height);
+  width: 100%;
+  padding: var(--space-content-top);
+  border-radius: var(--about-lagacy-image-radius);
+  transition: all 0.9s ease;
+}
+
+.level0 {
+  max-width: var(--about-lagacy-image-width);
+  padding: 40px 0 0;
+}
+.level1 {
+  max-width: 37%;
+  padding: 36px 0 0;
+}
+.level2 {
+  max-width: 44%;
+  padding: 32px 0 0;
+}
+.level3 {
+  max-width: 51%;
+  padding: 28px 0 0;
+}
+.level4 {
+  max-width: 58%;
+  padding: 24px 0 0;
+}
+.level5 {
+  max-width: 65%;
+  padding: 20px 0 0;
+}
+.level6 {
+  max-width: 72%;
+  padding: 16px 0 0;
+}
+.level7 {
+  max-width: 79%;
+  padding: 12px 0 0;
+}
+.level8 {
+  max-width: 86%;
+  padding: 8px 0 0;
+}
+.level9 {
+  max-width: 93%;
+  padding: 4px 0 0;
+}
+.level10 {
+  max-width: 100%;
+  padding: 0px;
+}
+
+.lagacyImage {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--about-lagacy-image-radius);
+  object-fit: cover;
+}
+
+.level10 .lagacyImage {
+  border-radius: 0;
+}
+
+.lagacyYears {
+  position: absolute;
+  left: var(--about-lagacy-year-left);
+  top: var(--about-lagacy-year-top);
+  display: flex;
+  flex-direction: column;
+  max-width: var(--about-lagacy-year-width);
+  z-index: 5;
+  letter-spacing: -10px;
+  line-height: 1.1;
+}
+
+.lagacyYears span {
+  font-size: var(--text-para-fontsize);
+  letter-spacing: 1px;
+}
+
+.lagacyPara {
+  position: absolute;
+  right: var(--about-lagacy-para-right);
+  z-index: 5;
+  bottom: var(--about-lagacy-para-bottom);
+  max-width: var(--about-lagacy-para-width);
+}
+
+.lagacyDotBg {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.05;
+}
+
+/* ************************************************************************** lagacy end */
+
+.storySection {
+  position: relative;
+  max-width: 100%;
+  background: var(--white-background-200);
+  width: 100%;
+  padding: var(--section-space-large);
+}
+
+.teamSection {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.teamMobile {
+  display: none;
+}
+
+@media (max-width: 1023.98px) {
+  .lagacySection {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: var(--section-space-large);
+    gap: 30px;
+  }
+
+  .lagacyDotBg {
+    display: none;
+  }
+
+  .level0,
+  .level1,
+  .level2,
+  .level3,
+  .level4,
+  .level5,
+  .level6,
+  .level7,
+  .level8,
+  .level9,
+  .level10 {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .lagacyYears {
+    position: relative;
+    padding: var(--space-content-top);
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+    line-height: 1.1;
+    letter-spacing: -4px;
+  }
+
+  .lagacyPara {
+    position: relative;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .teamSection {
+    display: none;
+  }
+
+  .teamMobile {
+    display: block;
+  }
+}

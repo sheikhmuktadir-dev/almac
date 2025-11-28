@@ -1,0 +1,387 @@
+.whyusCard {
+  position: relative;
+  max-width: var(--whyuscard-size);
+  width: 100%;
+  height: var(--whyuscard-size);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  gap: var(--whyus-card-gap);
+  z-index: 20;
+  padding: var(--whyuscard-padding);
+  justify-content: center;
+  border: 1px solid var(--border-gray);
+  border-radius: var(--whyus-card-radius);
+}
+
+.whyusCardIcon {
+  position: relative;
+  max-width: var(--whyus-icon-size);
+  width: 100%;
+  object-fit: contain;
+}
+
+.whyusCardHideBox {
+  position: absolute;
+  z-index: 30;
+  inset: 0;
+  transform: translateY(150%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--whyuscard-padding);
+  text-align: center;
+  background: var(--navy-background);
+  transition: all 0.5s ease;
+  opacity: 0;
+  border-radius: 100%;
+}
+
+.whyusCard:hover .whyusCardHideBox {
+  transform: translateY(0);
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.whyusCardHideBoxText {
+  position: relative;
+  color: var(--white-color);
+  text-align: center;
+}
+
+/* *********************************************************  why us card end*/
+
+.stickyCard {
+  position: var(--sticky-card-position);
+  top: var(--sticky-card-positon-top);
+  height: var(--sticky-card-height);
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.StickyCardInner {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.stickyCardImage {
+  position: relative;
+  width: 100%;
+  inset: 0;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.stickyCardContent {
+  position: absolute;
+  background: var(--white-background-200);
+  width: 100%;
+  min-height: var(--sticky-card-content-height);
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  right: 0;
+  z-index: 20;
+}
+
+.stickyCardContentList {
+  display: flex;
+  width: 100%;
+  padding: var(--sticky-card-list-padding);
+  height: 100%;
+  gap: var(--sticky-card-list-gap);
+  align-items: center;
+  justify-content: center;
+}
+
+.stickyCardContentItem {
+  width: 100%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: var(--sticky-card-item-gap);
+  justify-content: center;
+  color: var(--gray-color);
+  font-weight: var(--font-weight-300);
+  text-align: center;
+  padding: var(--sticky-card-item-padding);
+  border-right: 1px solid var(--border-gold);
+}
+
+.stickyCardContentItem:last-child {
+  border-right: none;
+}
+
+.stickyCardListIcon {
+  max-width: var(--sticky-card-icon-size);
+  width: 100%;
+  object-fit: contain;
+}
+
+/* ******************************************************** sticky card end */
+
+.mediaCard {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  border: 1px solid var(--border-gray);
+  border-radius: var(--mediacard-radius);
+  transition: all 0.3s ease;
+}
+
+.mediaCard:nth-child(2) {
+  margin-top: var(--mediacard-margin-top);
+}
+
+.mediaCardImageArea {
+  max-width: 100%;
+  width: 100%;
+  height: var(--mediacard-image-height);
+  overflow: hidden;
+  border-radius: var(--mediacard-image-radius);
+}
+
+.mediaCardImage {
+  position: relative;
+  object-fit: cover;
+  border-radius: var(--mediacard-image-radius);
+  max-width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.mediaCard:hover .mediaCardImage {
+  transform: scale(1.09, 1.09);
+}
+
+.mediaCardTextArea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--mediacard-text-gap);
+  padding: var(--mediacard-text-padding);
+}
+
+.mediaMainText {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ****************************************************************** media card end */
+
+.propertiesCard {
+  position: relative;
+  width: 100%;
+  display: grid;
+  align-items: start;
+  grid-template-columns: var(--propertycard-grid);
+  gap: var(--propertycard-gap);
+  transition: all 0.3s ease;
+}
+
+.propertiesCardImageArea {
+  position: relative;
+  height: var(--propertycard-image);
+  max-width: 100%;
+  width: 100%;
+  border-radius: var(--propertycard-radius);
+  overflow: hidden;
+}
+
+.propertiesCardImage {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--propertycard-radius);
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.propertiesCard:hover .propertiesCardImage {
+  transform: scale(1.2);
+}
+
+.propertiesCardContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.propertiesCardPara {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.propertiesCardHeading {
+  position: relative;
+}
+
+.propertiesCardList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.propertiesCardItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.propertiesCardLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  text-transform: uppercase;
+  gap: 10px;
+}
+
+.propertiesCardBtnArea {
+  padding: 20px 0 0;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ************************************************************** property card end */
+
+.teamCard {
+  position: relative;
+  width: var(--teamcard-width);
+  cursor: pointer;
+  transition: width 0.5s ease;
+  height: var(--teamcard-height);
+  overflow: hidden;
+}
+
+.teamCardExpand {
+  width: var(--teamcard-expand-width);
+  background: var(--gray-background);
+}
+
+.teamCardImage {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, object-position 0.4s ease;
+  transform: scale(1.05);
+  object-position: center top;
+}
+
+.teamCardExpand .teamCardImage {
+  transform: scale(1);
+  object-position: center;
+}
+
+.teamCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+  z-index: 20;
+}
+
+.teamCardExpand::after {
+  background: var(--team-overlay);
+}
+
+.teamCardContent {
+  position: absolute;
+  z-index: 30;
+  bottom: var(--teamcard-content-bottom);
+  left: var(--teamcard-content-left);
+  color: var(--white-color);
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: translateY(20px);
+}
+
+.teamCardExpand .teamCardContent {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ********************************************************* team card end */
+
+@media (max-width: 991.98px) {
+  .stickyCardContentList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stickyCardContentItem {
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .stickyCardContentItem:nth-child(even) {
+    border-right: none;
+  }
+
+  .teamCardContent {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .teamCard::after {
+    background: var(--team-overlay);
+  }
+
+  .mediaCard {
+    border: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .propertiesCardBtnArea {
+    flex-direction: column-reverse;
+    align-items: start;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .stickyCardImage {
+    object-position: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .propertiesCardBtnArea {
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+  }
+}

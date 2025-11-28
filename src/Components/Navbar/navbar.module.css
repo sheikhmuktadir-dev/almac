@@ -1,0 +1,284 @@
+.navbarMain {
+  position: var(--navbar-position);
+  top: var(--navbar-top);
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  z-index: var(--navbar-zindex);
+  line-height: 1;
+}
+
+.navbarInner {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* navbar logo */
+.navbarLogo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+  color: var(--black-color);
+  font-family: var(--font-main);
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-500);
+}
+
+.navwhiteLink .navbarLogo {
+  color: var(--white-color);
+}
+
+.navbarLogo span:first-child {
+  font-size: var(--navbar-logo-fontsize-one);
+}
+
+.navbarLogo span:last-child {
+  font-size: var(--navbar-logo-fontsize-two);
+}
+
+.navbarContent {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: end;
+}
+
+/* navbar content list || ul */
+.navbarContentList {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--navbar-list-gap);
+}
+
+.navbarContentItem {
+  position: relative;
+}
+
+/* navbar content link || a */
+.navbarContentLink {
+  position: relative;
+  font-weight: var(--font-weight-500);
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--black-color);
+  font-size: var(--text-normal-fontsize);
+  transition: all 0.3s ease;
+}
+
+.navwhiteLink .navbarContentLink {
+  color: var(--white-color);
+}
+
+.activeNav {
+  color: var(--gold-color);
+}
+
+.navwhiteLink .activeNav {
+  color: var(--gold-color);
+}
+
+.navbarContentLink:hover {
+  color: var(--gold-color);
+}
+
+/* navbar toggle */
+.navbarToggle {
+  position: var(--navbar-toggle-position);
+  right: var(--navbar-toggle-postion-right);
+  overflow: hidden;
+  top: var(--navbar-toggle-postion-top);
+  opacity: 0;
+  padding: var(--navbar-toggle-padding);
+  height: var(--button-height-one);
+  border-radius: var(--button-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  gap: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  transform: scale(0);
+  letter-spacing: 1px;
+  flex: none;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  color: var(--white-color);
+  background: var(--navy-background);
+  z-index: var(--navbar-toggle-zindex);
+}
+
+.navbarToggle::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  inset: 0;
+  transform: scale(0);
+  opacity: 0;
+  border-radius: var(--button-radius);
+  background: var(--gold-background);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.navbarToggle:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.navbarToggle:hover {
+  color: var(--black-color);
+}
+
+.navbarToggleVisible {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+/* ****************************************************** */
+
+/* navbar menu */
+.navbarMenu {
+  position: var(--navbar-menu-position);
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: var(--navbar-menu-width);
+  height: var(--navbar-menu-height);
+  background: var(--navbar-menu-background);
+  z-index: var(--navbar-menu-zindex);
+  transform: translateX(150%);
+  backdrop-filter: blur(20px);
+  padding: var(--navbar-menu-padding);
+  opacity: 0;
+  transition: transform 0.5s cubic-bezier(0.85, 0, 0.15, 1), opacity 0.4s ease;
+  will-change: transform, opacity;
+}
+
+.navbarMenu .navbarLogo {
+  color: var(--white-color);
+}
+
+.navbarMenuVisible {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.navbarMenuFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1;
+  max-width: 100%;
+}
+
+/* navbar menu close btn */
+.navbarToggleClose {
+  position: relative;
+  right: 0;
+  top: 0;
+  font-size: var(--navbar-menu-close-btn-fontsize);
+  opacity: 1;
+  width: var(--navbar-menu-close-btn-size);
+  height: var(--navbar-menu-close-btn-size);
+  border-radius: var(--button-radius);
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-align: center;
+  flex: none;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  background: var(--navy-background);
+  color: var(--white-color);
+  z-index: 10;
+}
+
+.navbarToggleClose::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  inset: 0;
+  transform: scale(0);
+  opacity: 0;
+  border-radius: var(--button-radius);
+  background: var(--gold-background);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.navbarToggleClose:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.navbarToggleClose:hover {
+  color: var(--black-color);
+}
+
+.navbarMenuList {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: var(--navbar-menu-list-gap);
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarMenuItem {
+  position: relative;
+}
+
+.navbarMenuLink {
+  line-height: 1;
+  white-space: nowrap;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: var(--font-weight-500);
+  font-size: var(--navbar-menu-link-fontsize);
+  color: var(--white-color);
+  transition: all 0.3s ease;
+}
+
+.menuActive {
+  color: var(--navy-color);
+}
+
+.navbarMenuLink:hover {
+  color: var(--navy-color);
+}
+/* ********************************************** */
+
+@media (max-width: 1023.98px) {
+  .navbarContent {
+    display: none;
+  }
+
+  .navbarToggle {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,83 @@
+.accordion {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--accordion-gap);
+  transition: all 0.3s ease;
+}
+
+.accordionItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  gap: var(--accordion-item-gap);
+}
+
+.accordionButton {
+  font-family: var(--font-main);
+  position: relative;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: var(--accordion-btn-gap);
+  line-height: 1;
+  color: var(--gray-light-color);
+  transition: all 0.3s ease;
+  font-size: var(--text-h2-fontsize);
+}
+
+.accordionButton span:first-child {
+  display: none;
+}
+
+.accordionButton:hover {
+  padding-left: var(--accordion-btn-leftspace);
+  color: var(--navy-color);
+}
+
+.accordionButton:hover span:first-child {
+  display: flex;
+}
+
+.accordionButtonActive {
+  padding-left: var(--accordion-btn-leftspace);
+  color: var(--navy-color);
+}
+
+.accordionButtonActive span:first-child {
+  display: flex;
+}
+
+.accordionContent {
+  position: relative;
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.accordionContentShow {
+  position: relative;
+  max-height: 800px;
+  padding: var(--space-content);
+  opacity: 1;
+}
+
+.accordionContentInner {
+  padding-left: var(--acordion-content-leftspace);
+}
+
+.accordionPara {
+  max-width: var(--accordion-para-width);
+  width: 100%;
+  position: relative;
+}
+
+.accordionContentImage {
+  position: relative;
+  max-width: var(--accordion-image-width);
+  width: 100%;
+  object-fit: contain;
+}

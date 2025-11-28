@@ -1,0 +1,105 @@
+.searchMain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.searchBtnArea {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 0 0;
+}
+
+.searchBtn {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  font-weight: var(--font-weight-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+  flex: none;
+  overflow: hidden;
+  height: var(--button-height-two);
+  z-index: 10;
+  border: 1px solid var(--border-gray);
+  background: transparent;
+  border-radius: var(--button-radius);
+  transition: all 0.3s ease;
+}
+
+.searchBtn::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  inset: 0;
+  transform: translateY(150%);
+  opacity: 0;
+  border-radius: var(--button-radius);
+  background: var(--navy-background);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.searchBtn:hover:before {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.searchBtn:hover {
+  color: var(--white-color);
+}
+
+.searchBtnClear {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--gray-color);
+  text-decoration: underline;
+}
+
+.filterBtn {
+  display: none;
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--border-gray);
+  height: var(--button-height-one);
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
+  flex: none;
+  line-height: 1;
+  padding: var(--button-padding-one);
+  position: relative;
+  border-radius: var(--button-radius);
+}
+
+@media (max-width: 1023.98px) {
+  .filterBtn {
+    display: inline-flex;
+  }
+
+  .searchMain {
+    max-height: 0;
+    transition: all 0.3s ease;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+  }
+
+  .searchMainShow {
+    max-height: 1000px;
+    padding: 20px 0 0;
+    visibility: visible;
+    opacity: 1;
+  }
+}

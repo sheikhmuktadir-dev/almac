@@ -1,0 +1,20 @@
+{
+  "menus": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Properties",
+      "url": "properties"
+    },
+    {
+      "label": "About Almac",
+      "url": "about"
+    },
+    {
+      "label": "Contact Us",
+      "url": "contact"
+    }
+  ]
+}

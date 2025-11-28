@@ -1,0 +1,162 @@
+.propertyImageArea {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  height: var(--inner-height);
+}
+
+.propertyImageArea::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--main-overlay);
+  z-index: 10;
+}
+
+.propertyImage {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+  height: 100%;
+  max-width: 100%;
+}
+
+.propertiesSection {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  padding: var(--section-space-large);
+}
+
+.propertiesFilterArea {
+  position: var(--property-filter-position);
+  top: 0;
+  max-width: var(--property-filter-width);
+  width: 100%;
+}
+
+.propertiesSectionFlex {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: var(--property-section-gap);
+}
+
+.propertiesContent {
+  position: relative;
+  width: 100%;
+  flex: 1;
+}
+
+.propertiesContentSearchPart {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: var(--property-section-gap);
+}
+
+.searchBox {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  padding: 10px 10px 10px 30px;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.searchBox:focus {
+  outline: none;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.propertiesSearchArea {
+  width: 100%;
+  flex: 1;
+  max-width: 100%;
+  position: relative;
+}
+
+.propertiesSearchIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.propertiesContentHeadingLength {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.propertiesContentHeading {
+  line-height: 1;
+  position: relative;
+}
+
+.propertiesContentMain {
+  position: relative;
+  padding: var(--space-content-top);
+}
+
+.propertiesCardGrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--property-card-area-gap);
+}
+
+.loadMoreBtnArea {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: var(--section-spcae-top-large);
+}
+
+.loadMoreBtn {
+  position: relative;
+  border: 1px solid var(--border-gray);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--black-color);
+  text-align: center;
+  background: transparent;
+  padding: var(--button-padding-two);
+  height: var(--button-height-two);
+  z-index: 10;
+  border-radius: var(--button-radius);
+  text-transform: uppercase;
+}
+
+@media (max-width: 1023.98px) {
+  .propertiesFilterArea {
+    position: relative;
+    max-width: 100%;
+  }
+
+  .propertiesSectionFlex {
+    position: relative;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .propertiesContentHeading {
+    display: none;
+  }
+
+  .propertiesContentSearchPart {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px 0 0;
+  }
+}

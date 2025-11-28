@@ -1,0 +1,144 @@
+.button {
+  position: relative;
+  height: var(--button-height-two);
+  padding: var(--button-padding-two);
+  border-radius: var(--button-radius);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: none;
+  letter-spacing: 1px;
+  line-height: 1;
+  white-space: nowrap;
+  border: 1px solid var(--border-gray);
+  text-transform: uppercase;
+  background: transparent;
+  z-index: 10;
+  transition: all 0.3s ease;
+  font-weight: var(--font-weight-500);
+  overflow: hidden;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  inset: 0;
+  transform: translateY(150%);
+  opacity: 0;
+  border-radius: var(--button-radius);
+  background: var(--navy-background);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover:before {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.button:hover {
+  color: var(--white-color);
+}
+
+/* ***************************************************************** */
+
+.detailsButton {
+  position: relative;
+  color: var(--white-color);
+  height: var(--button-height-one);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: none;
+  text-transform: uppercase;
+  padding: var(--button-padding-one);
+  letter-spacing: 1px;
+  border-radius: var(--button-radius);
+  transition: all 0.3s ease;
+  font-weight: var(--font-weight-500);
+  line-height: 1;
+  z-index: 10;
+  overflow: hidden;
+  background: var(--navy-background);
+}
+
+.detailsButton::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  inset: 0;
+  transform: scale(0);
+  opacity: 0;
+  border-radius: var(--button-radius);
+  background: var(--gold-background);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.detailsButton:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.detailsButton:hover {
+  color: var(--black-color);
+}
+
+/* ********************************************************************* */
+
+.grayButton {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1;
+  border-radius: var(--button-radius);
+  color: var(--black-color);
+  flex: none;
+  height: var(--button-height-one);
+  z-index: 10;
+  border: 1px solid var(--border-gray);
+  gap: 10px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-500);
+  padding: var(--button-padding-one);
+  overflow: hidden;
+  background: transparent;
+}
+
+.grayButton::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  inset: 0;
+  transform: translateY(150%);
+  opacity: 0;
+  border-radius: var(--button-radius);
+  background: var(--navy-background);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.grayButton:hover:before {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.grayButton:hover {
+  color: var(--white-color);
+}
+
+@media (max-width: 767.98px) {
+  .grayButton,
+  .detailsButton {
+    width: 100%;
+  }
+}

@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-secondary);
+  font-size: var(--text-normal-fontsize);
+  font-weight: var(--font-weight-400);
+  line-height: 1.6;
+  color: var(--black-color);
+  background: var(--white-background-100);
+  overflow-wrap: break-word;
+}
+
+/* For the entire page */
+::-webkit-scrollbar {
+  width: 6px;
+  background: transparent;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background: var(--gold-background);
+  border-radius: 10px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.noData {
+  text-align: center;
+}
+
+h1 {
+  font-size: var(--text-h1-fontsize);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-300);
+  line-height: 1em;
+  font-family: var(--font-main);
+}
+
+h2 {
+  font-size: var(--text-h2-fontsize);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-300);
+  line-height: 1em;
+  font-family: var(--font-main);
+}
+
+h3 {
+  font-size: var(--text-h3-fontsize);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-300);
+  line-height: 1.2em;
+  font-family: var(--font-main);
+}
+
+h4 {
+  font-size: var(--text-h4-fontsize);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-300);
+  line-height: 1.3em;
+  font-family: var(--font-main);
+}
+
+h5 {
+  font-size: var(--text-h5-fontsize);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-300);
+  line-height: 1.4em;
+  font-family: var(--font-main);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--gold-color) !important;
+  background: transparent;
+  width: 25px !important;
+  height: 25px !important;
+}

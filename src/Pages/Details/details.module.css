@@ -1,0 +1,263 @@
+.detailsBanner {
+  position: relative;
+  height: var(--inner-height);
+  max-width: 100%;
+  width: 100%;
+}
+
+.detailsBanner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--main-overlay);
+  z-index: 10;
+}
+
+.detailsBannerImage {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.detailsList {
+  position: relative;
+  padding: var(--section-space-large);
+}
+
+.detailsListTop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: var(--space-content-bottom);
+}
+
+.detailsListTopFlex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.detailsListMain {
+  position: relative;
+  padding: var(--space-content-top);
+  border-top: 1px solid var(--border-gray);
+  display: grid;
+  gap: var(--details-gap);
+  grid-template-columns: var(--details-grid);
+}
+
+.detailsListMainLeft {
+  position: relative;
+  max-width: 100%;
+  border-right: 1px solid var(--border-gray);
+  display: flex;
+  flex-direction: column;
+  gap: var(--details-gap);
+  width: 100%;
+  padding: 0 50px 0 0;
+}
+
+.detailsListAmenitiesFlex {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-gray);
+  padding: var(--space-content-bottom);
+  gap: var(--details-gap);
+  max-width: 100%;
+  width: 100%;
+}
+
+.detailsAminities {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.detailsListOrder {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid var(--border-gray);
+  padding: var(--space-content-bottom);
+  max-width: 100%;
+  width: 100%;
+}
+
+.detailsListOrderItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.payPlanFlex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.payPlanHeading {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+}
+
+.detailsListpayPlanArea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.propertyMap {
+  position: relative;
+  height: 300px;
+  filter: grayscale(100%);
+}
+
+.detailsListMainRight {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--details-gap);
+}
+
+.detailsListBox {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.floorPlanButton {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: none;
+  max-width: 100%;
+  padding: var(--button-padding-one);
+  width: 100%;
+  height: var(--button-height-one);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: var(--font-weight-600);
+  border-radius: var(--button-radius);
+  border: 1px solid var(--border-gray);
+  line-height: 1;
+  cursor: pointer;
+}
+
+.detailsListWhatapp {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  color: #fff;
+  border-radius: var(--button-radius);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 40;
+  text-align: center;
+  font-size: var(--text-h5-fontsize);
+  line-height: 1;
+  flex: none;
+}
+
+.amenitiesIcon {
+  max-width: 50px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .detailsListTopFlex {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .detailsListAmenitiesFlex {
+    flex-wrap: wrap;
+    align-items: start;
+  }
+
+  .detailsListMainLeft {
+    border-right: none;
+  }
+
+  .detailsListOrderItem {
+    flex-wrap: wrap;
+  }
+
+  .payPlanFlex {
+    align-items: start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .detailsListWhatapp {
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+  }
+
+  .detailsListMainLeft {
+    padding: 0;
+  }
+
+  .payPlanHeading {
+    max-width: 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .detailsListAmenitiesFlex {
+    flex-wrap: wrap;
+  }
+
+  .detailsListOrderItem {
+    flex-wrap: wrap;
+  }
+
+  .payPlanFlex {
+    flex-wrap: wrap;
+  }
+
+  .payPlanHeading {
+    max-width: 200px;
+  }
+
+  .detailsListWhatapp {
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1599.98px) {
+  .detailsListWhatapp {
+    right: 40px;
+    bottom: 40px;
+  }
+}

@@ -1,0 +1,630 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Optima LT Std";
+  src: url("../assets/fonts/Optima LT Std Roman.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root {
+  /* font family */
+  --font-main: "Optima LT Std", sans-serif;
+  --font-secondary: "Lato", "Open Sans", sans-serif;
+
+  /* container */
+  --container-width: 1440px;
+  --container-space: clamp(16px, 3vw, 48px);
+
+  /* navbar */
+  --navbar-position: absolute;
+  --navbar-top: 50px;
+  --navbar-zindex: 9999;
+  --navbar-logo-fontsize-one: 40px;
+  --navbar-logo-fontsize-two: 15px;
+  --navbar-list-gap: 40px;
+  --navbar-toggle-position: fixed;
+  --navbar-toggle-postion-right: 40px;
+  --navbar-toggle-postion-top: 40px;
+  --navbar-toggle-padding: 0 20px;
+  --navbar-toggle-zindex: 99999;
+  --navbar-menu-position: fixed;
+  --navbar-menu-width: 50%;
+  --navbar-menu-height: 100vh;
+  --navbar-menu-zindex: 999999;
+  --navbar-menu-padding: 60px 0;
+  --navbar-menu-background: rgba(21, 21, 21, 0.3);
+  --navbar-menu-close-btn-size: 60px;
+  --navbar-menu-close-btn-fontsize: 30px;
+  --navbar-menu-list-gap: 20px;
+
+  /* footer */
+  --footer-logo-fontsize-one: 40px;
+  --footer-logo-fontsize-two: 15px;
+  --footer-social-gap: 20px;
+  --footer-grid: repeat(4, 1fr);
+  --footer-list-gap: 10px;
+  --footer-list-padding: 30px 0 0;
+
+  /* hero */
+  --hero-herocontact-link-bottom: 50px;
+  --hero-herocontact-link-right: 150px;
+
+  /* about lagacy */
+  --about-lagacy-image-width: 25%;
+  --about-lagacy-image-radius: 10px;
+  --about-lagacy-year-width: 150px;
+  --about-lagacy-image-height: 100%;
+  --about-lagacy-year-left: 15%;
+  --about-lagacy-year-top: 30%;
+  --about-lagacy-para-width: 300px;
+  --about-lagacy-para-bottom: 50px;
+  --about-lagacy-para-right: 150px;
+
+  /* property  */
+  --property-filter-width: 320px;
+  --property-section-gap: 60px;
+  --property-filter-position: sticky;
+  --property-card-area-gap: 40px;
+
+  /* why us */
+  --whyus-radius: 50% 50% 0 0;
+  --whyus-scroll-radius: 250px 250px 0 0;
+  --whyus-heading-left-space: 150px;
+  --whyus-para-width: 550px;
+
+  /* contact */
+  --contact-grid: repeat(2, 1fr);
+  --contact-grid-gap: 60px;
+  --contact-map-height: 700px;
+  --contact-iconsize: 40px;
+  --contact-box-gap: 40px;
+
+  /* details */
+  --details-grid: 2fr 1fr;
+  --details-gap: 40px;
+
+  /* button */
+  --button-height-one: 50px;
+  --button-height-two: 60px;
+  --button-padding-one: 0 40px;
+  --button-padding-two: 0 60px;
+  --button-radius: 100px;
+
+  /* accordion */
+  --accordion-gap: 20px;
+  --accordion-item-gap: 40px;
+  --accordion-btn-gap: 20px;
+  --accordion-btn-leftspace: 50px;
+  --acordion-content-leftspace: 150px;
+  --accordion-para-width: 800px;
+
+  /* overlay */
+  --main-overlay: radial-gradient(
+      127.18% 107.82% at 52.52% 100%,
+      rgba(42, 60, 68, 0) 0%,
+      rgba(42, 60, 68, 0) 66.59%,
+      rgba(42, 60, 68, 0.48) 99.98%
+    ),
+    linear-gradient(
+      99deg,
+      rgba(7, 28, 53, 0.7) 5.93%,
+      rgba(7, 28, 53, 0.14) 80.83%
+    );
+
+  --team-overlay: rgba(0, 0, 0, 0.5);
+
+  /*why us card */
+  --whyuscard-size: 380px;
+  --whyuscard-padding: 35px;
+  --whyus-card-gap: 60px;
+  --whyus-icon-size: 65px;
+  --whyus-card-radius: 100%;
+
+  /* sticky card */
+  --sticky-card-position: sticky;
+  --sticky-card-positon-top: 0;
+  --sticky-card-height: 90vh;
+  --sticky-card-content-height: 150px;
+  --sticky-card-list-padding: 20px 0;
+  --sticky-card-list-gap: 15px;
+  --sticky-card-item-gap: 20px;
+  --sticky-card-item-padding: 10px;
+  --sticky-card-icon-size: 50px;
+
+  /* mediacard */
+  --mediacard-image-height: 380px;
+  --mediacard-radius: 10px;
+  --mediacard-margin-top: 100px;
+  --mediacard-image-radius: 10px 10px 0 0;
+  --mediacard-text-padding: 30px 20px;
+  --mediacard-text-gap: 15px;
+
+  /* property card */
+  --propertycard-image: 380px;
+  --propertycard-grid: repeat(2, 1fr);
+  --propertycard-gap: 40px;
+  --propertycard-radius: 10px;
+
+  /* team card */
+  --teamcard-width: 450px;
+  --teamcard-expand-width: 100%;
+  --teamcard-height: 550px;
+  --teamcard-content-left: 30px;
+  --teamcard-content-bottom: 50px;
+
+  /* font weight */
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+  --font-weight-900: 900;
+
+  /* background */
+  --white-background: #ffffff;
+  --white-background-100: #f9f9f9;
+  --white-background-200: #efefef;
+  --black-background: #222222;
+  --gray-background: #9d9d9c;
+  --navy-background: #071c35;
+  --gold-background: #d5b9a1;
+
+  /* color */
+  --white-color: #ffffff;
+  --black-color: #222222;
+  --gray-color: #9d9d9c;
+  --gray-light-color: #999999;
+  --navy-color: #071c35;
+  --gold-color: #d5b9a1;
+
+  /* border */
+  --border-gray: #9d9d9c;
+  --border-black: #222222e1;
+  --border-gold: #d5b9a1;
+
+  /* font size */
+  --navbar-menu-link-fontsize: 80px;
+  --text-verylarge-fontsize: 22rem;
+  --text-normal-fontsize: 1rem;
+  --text-h1-fontsize: 9rem;
+  --text-h2-fontsize: 6rem;
+  --text-h3-fontsize: 5rem;
+  --text-h4-fontsize: 3rem;
+  --text-h5-fontsize: 1.6rem;
+  --text-para-fontsize: 18px;
+
+  /* content height */
+  --hero-height: 100vh;
+  --inner-height: 600px;
+  --about-height: 90vh;
+
+  /* space */
+  --section-space-large: 100px 0;
+  --section-spcae-top-large: 100px 0 0;
+  --space-content: 50px 0;
+  --space-content-bottom: 0 0 50px;
+  --space-content-top: 50px 0 0;
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    /* container */
+    --container-width: 100%;
+
+    /* navbar */
+    --navbar-top: 30px;
+    --navbar-logo-fontsize-one: 35px;
+    --navbar-logo-fontsize-two: 12px;
+    --navbar-toggle-postion-right: 15px;
+    --navbar-toggle-postion-top: 30px;
+    --navbar-toggle-padding: 0 15px;
+    --navbar-menu-width: 100%;
+    --navbar-menu-padding: 30px 0;
+    --navbar-menu-close-btn-size: 40px;
+    --navbar-menu-close-btn-fontsize: 20px;
+
+    /* footer */
+    --footer-logo-fontsize-one: 35px;
+    --footer-logo-fontsize-two: 12px;
+    --footer-grid: 1fr;
+    --footer-list-padding: 20px 0 0;
+
+    /* property  */
+    --property-filter-width: 100%;
+    --property-section-gap: 20px;
+    --property-filter-position: relative;
+    --property-card-area-gap: 60px;
+
+    /* about lagacy */
+    --about-lagacy-image-width: 100%;
+    --about-lagacy-image-radius: 0;
+    --about-lagacy-year-width: 100%;
+    --about-lagacy-image-height: 380px;
+    --about-lagacy-year-left: 0;
+    --about-lagacy-year-top: 0;
+    --about-lagacy-para-width: 100%;
+    --about-lagacy-para-bottom: 0;
+    --about-lagacy-para-right: 0;
+
+    /* why us */
+    --whyus-radius: 200px 200px 0 0;
+    --whyus-scroll-radius: 50px 50px 0 0;
+    --whyus-heading-left-space: 0;
+    --whyus-para-width: 100%;
+
+    /* contact */
+    --contact-grid: 1fr;
+    --contact-grid-gap: 30px;
+    --contact-map-height: 380px;
+    --contact-iconsize: 30px;
+    --contact-box-gap: 20px;
+
+    /* button */
+    --button-height-one: 40px;
+    --button-height-two: 45px;
+    --button-padding-one: 0 15px;
+    --button-padding-two: 0 30px;
+    --button-radius: 100px;
+
+    /* accordion */
+    --accordion-gap: 10px;
+    --accordion-item-gap: 20px;
+    --accordion-btn-gap: 10px;
+    --accordion-btn-leftspace: 0;
+    --acordion-content-leftspace: 0;
+    --accordion-para-width: 100%;
+
+    /* font size */
+    --navbar-menu-link-fontsize: 40px;
+    --text-verylarge-fontsize: 5.5rem;
+    --text-normal-fontsize: 1rem;
+    --text-h1-fontsize: 3.5rem;
+    --text-h2-fontsize: 2.5rem;
+    --text-h3-fontsize: 2rem;
+    --text-h4-fontsize: 1.5rem;
+    --text-h5-fontsize: 1.2rem;
+    --text-para-fontsize: 1rem;
+
+    /* space */
+    --section-space-large: 60px 0;
+    --section-spcae-top-large: 60px 0 0;
+    --space-content: 30px 0;
+    --space-content-top: 30px 0 0;
+
+    /* content height */
+    --inner-height: 380px;
+
+    /*why us card */
+    --whyuscard-size: 280px;
+    --whyuscard-padding: 20px;
+    --whyus-card-gap: 30px;
+    --whyus-icon-size: 50px;
+
+    /* sticky card */
+    --sticky-card-list-padding: 15px 0;
+    --sticky-card-item-gap: 15px;
+    --sticky-card-icon-size: 35px;
+    --sticky-card-list-gap: 10px;
+    --sticky-card-item-padding: 15px;
+    --sticky-card-height: 80vh;
+
+    /* mediacard */
+    --mediacard-image-height: 280px;
+    --mediacard-margin-top: 0;
+    --mediacard-text-padding: 15px;
+
+    /* property card */
+    --propertycard-image: 280px;
+    --propertycard-grid: 1fr;
+    --propertycard-gap: 20px;
+    --propertycard-radius: 10px;
+
+    /* team card */
+    --teamcard-width: 100%;
+    --teamcard-height: 380px;
+    --teamcard-content-left: 20px;
+    --teamcard-content-bottom: 30px;
+
+    /* details */
+    --details-grid: 1fr;
+    --details-gap: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  :root {
+    /* container */
+    --container-width: 100%;
+
+    /* navbar */
+    --navbar-top: 30px;
+    --navbar-logo-fontsize-one: 40px;
+    --navbar-logo-fontsize-two: 14px;
+    --navbar-toggle-postion-right: 30px;
+    --navbar-toggle-postion-top: 30px;
+    --navbar-toggle-padding: 0 15px;
+    --navbar-menu-width: 100%;
+    --navbar-menu-padding: 30px 0;
+    --navbar-menu-close-btn-size: 45px;
+    --navbar-menu-close-btn-fontsize: 20px;
+
+    /* font size */
+    --navbar-menu-link-fontsize: 50px;
+    --text-verylarge-fontsize: 10.5rem;
+    --text-normal-fontsize: 1rem;
+    --text-h1-fontsize: 6.5rem;
+    --text-h2-fontsize: 4.5rem;
+    --text-h3-fontsize: 2rem;
+    --text-h4-fontsize: 1.5rem;
+    --text-h5-fontsize: 1.2rem;
+    --text-para-fontsize: 1rem;
+
+    /* why us */
+    --whyus-radius: 400px 400px 0 0;
+    --whyus-scroll-radius: 80px 80px 0 0;
+    --whyus-heading-left-space: 0;
+    --whyus-para-width: 100%;
+
+    /*why us card */
+    --whyuscard-size: 230px;
+    --whyuscard-padding: 20px;
+    --whyus-card-gap: 30px;
+    --whyus-icon-size: 50px;
+
+    /* mediacard */
+    --mediacard-image-height: 300px;
+    --mediacard-margin-top: 0;
+    --mediacard-text-padding: 15px;
+
+    /* footer */
+    --footer-logo-fontsize-one: 40px;
+    --footer-logo-fontsize-two: 14px;
+    --footer-grid: repeat(2, 1fr);
+    --footer-list-padding: 20px 0 0;
+
+    /* space */
+    --section-space-large: 80px 0;
+    --section-spcae-top-large: 80px 0 0;
+    --space-content: 40px 0;
+    --space-content-top: 40px 0 0;
+
+    /* content height */
+    --hero-height: 100vh;
+    --inner-height: 400px;
+
+    /* contact */
+    --contact-grid: 1fr;
+    --contact-grid-gap: 30px;
+    --contact-map-height: 400px;
+    --contact-iconsize: 30px;
+    --contact-box-gap: 20px;
+
+    /* about lagacy */
+    --about-lagacy-image-width: 100%;
+    --about-lagacy-image-radius: 0;
+    --about-lagacy-year-width: 100%;
+    --about-lagacy-image-height: 400px;
+    --about-lagacy-year-left: 0;
+    --about-lagacy-year-top: 0;
+    --about-lagacy-para-width: 100%;
+    --about-lagacy-para-bottom: 0;
+    --about-lagacy-para-right: 0;
+
+    /* team card */
+    --teamcard-width: 100%;
+    --teamcard-height: 400px;
+    --teamcard-content-left: 20px;
+    --teamcard-content-bottom: 30px;
+
+    /* accordion */
+    --accordion-gap: 10px;
+    --accordion-item-gap: 20px;
+    --accordion-btn-gap: 10px;
+    --accordion-btn-leftspace: 0;
+    --acordion-content-leftspace: 0;
+    --accordion-para-width: 100%;
+
+    /* property  */
+    --property-filter-width: 100%;
+    --property-section-gap: 20px;
+    --property-filter-position: relative;
+    --property-card-area-gap: 60px;
+
+    /* property card */
+    --propertycard-image: 300px;
+    --propertycard-grid: 1fr 1.5fr;
+    --propertycard-gap: 20px;
+    --propertycard-radius: 10px;
+
+    /* sticky card */
+    --sticky-card-height: 80vh;
+
+    /* details */
+    --details-grid: 1.5fr 1fr;
+    --details-gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+  :root {
+    /* container */
+    --container-width: 100%;
+
+    /* font size */
+    --navbar-menu-link-fontsize: 55px;
+    --text-verylarge-fontsize: 15rem;
+    --text-normal-fontsize: 1rem;
+    --text-h1-fontsize: 7rem;
+    --text-h2-fontsize: 5rem;
+    --text-h3-fontsize: 3rem;
+    --text-h4-fontsize: 2rem;
+    --text-h5-fontsize: 1.5rem;
+    --text-para-fontsize: 18px;
+
+    /* hero */
+    --hero-herocontact-link-bottom: 50px;
+    --hero-herocontact-link-right: 50px;
+
+    /* why us */
+    --whyus-radius: 50% 50% 0 0;
+    --whyus-scroll-radius: 150px 150px 0 0;
+    --whyus-heading-left-space: 100px;
+    --whyus-para-width: 550px;
+
+    /*why us card */
+    --whyuscard-size: 320px;
+    --whyuscard-padding: 30px;
+    --whyus-card-gap: 60px;
+    --whyus-icon-size: 65px;
+    --whyus-card-radius: 100%;
+
+    /* mediacard */
+    --mediacard-image-height: 280px;
+    --mediacard-radius: 10px;
+    --mediacard-margin-top: 80px;
+
+    /* content height */
+    --inner-height: 450px;
+    --about-height: 80vh;
+
+    /* contact */
+    --contact-map-height: 620px;
+
+    /* about lagacy */
+    --about-lagacy-year-width: 150px;
+    --about-lagacy-para-right: 50px;
+
+    /* accordion */
+    --accordion-gap: 20px;
+    --accordion-item-gap: 20px;
+    --accordion-btn-leftspace: 40px;
+    --acordion-content-leftspace: 120px;
+
+    /* team card */
+    --teamcard-height: 400px;
+
+    /* sticky card */
+    --sticky-card-height: 85vh;
+
+    /* property  */
+    --property-filter-width: 220px;
+    --property-section-gap: 30px;
+    --property-filter-position: sticky;
+    --property-card-area-gap: 40px;
+
+    /* property card */
+    --propertycard-image: 350px;
+    --propertycard-grid: 1fr 1.5fr;
+    --propertycard-gap: 30px;
+
+    /* navbar */
+    --navbar-toggle-postion-right: 30px;
+    --navbar-toggle-postion-top: 30px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1599.98px) {
+  :root {
+    /* container */
+    --container-width: 1152px;
+
+    /* font size */
+    --navbar-menu-link-fontsize: 60px;
+    --text-verylarge-fontsize: 18rem;
+    --text-normal-fontsize: 1rem;
+    --text-h1-fontsize: 8rem;
+    --text-h2-fontsize: 5.5rem;
+    --text-h3-fontsize: 4.5rem;
+    --text-h4-fontsize: 2.5rem;
+    --text-h5-fontsize: 1.3rem;
+    --text-para-fontsize: 18px;
+
+    /* hero */
+    --hero-herocontact-link-right: 100px;
+
+    /* why us */
+    --whyus-radius: 50% 50% 0 0;
+    --whyus-scroll-radius: 200px 200px 0 0;
+
+    /*why us card */
+    --whyuscard-size: 340px;
+    --whyuscard-padding: 30px;
+
+    /* mediacard */
+    --mediacard-image-height: 280px;
+
+    /* contact */
+    --contact-map-height: 650px;
+
+    /* about lagacy */
+    --about-lagacy-image-width: 28%;
+    --about-lagacy-year-width: 150px;
+    --about-lagacy-year-left: 12%;
+    --about-lagacy-para-right: 100px;
+
+    /* accordion */
+    --accordion-item-gap: 30px;
+    --acordion-content-leftspace: 150px;
+
+    /* property  */
+    --property-filter-width: 280px;
+    --property-section-gap: 40px;
+
+    /* property card */
+    --propertycard-image: 360px;
+    --propertycard-grid: 1fr 1.5fr;
+
+    /* navbar */
+    --navbar-toggle-postion-right: 40px;
+    --navbar-toggle-postion-top: 40px;
+
+    /* content height */
+    --inner-height: 500px;
+    --about-height: 85vh;
+
+    /* team card */
+    --teamcard-height: 480px;
+
+    /* sticky card */
+    --sticky-card-height: 90vh;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919.98px) {
+  :root {
+    --container-width: 1280px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2559.98px) {
+  :root {
+    --container-width: 1440px;
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    --container-width: 1536px;
+
+    /* sticky card */
+    --sticky-card-height: 80vh;
+
+    /* content height */
+    --about-height: 90vh;
+
+    /* team card */
+    --teamcard-width: 550px;
+    --teamcard-height: 600px;
+
+    /* contact */
+
+    --contact-map-height: 800px;
+  }
+}

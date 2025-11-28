@@ -1,0 +1,360 @@
+.heroMain {
+  max-width: 100%;
+  width: 100%;
+  background: var(--white-background);
+  height: var(--hero-height);
+}
+
+.heroMain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--main-overlay);
+  z-index: 10;
+}
+
+.heroImageArea {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.heroImageMain {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.heroContentArea {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 40;
+  max-width: 100%;
+  width: 100%;
+}
+
+.heroTextOne,
+.heroTextTwo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  color: var(--white-color);
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.heroTextOne {
+  bottom: 0;
+  font-size: var(--text-verylarge-fontsize);
+  opacity: 1;
+  font-family: var(--font-main);
+  letter-spacing: -8px;
+  transition: all 0.4s ease-out;
+}
+
+.heroTextTwo {
+  bottom: -80px;
+  font-size: var(--text-verylarge-fontsize);
+  letter-spacing: -8px;
+  font-family: var(--font-main);
+  opacity: 0;
+  transition: all 0.4s ease-out;
+}
+
+.heroTextOne.scrolled {
+  bottom: 80px;
+  opacity: 0;
+}
+
+.heroTextTwo.scrolled {
+  bottom: 0;
+  opacity: 1;
+}
+
+.scrollDown {
+  position: absolute;
+  bottom: 50px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scrollDownImage {
+  max-width: 30px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.scrollDownText {
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+.heroContact {
+  position: absolute;
+  right: var(--hero-herocontact-link-right);
+  bottom: var(--hero-herocontact-link-bottom);
+  z-index: 20;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.heroContactLink {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: var(--text-para-fontsize);
+  text-decoration: underline;
+}
+
+/* ********************************************************************* hero end *************************************** */
+
+.whyUsMain {
+  position: relative;
+  max-width: 80%;
+  background: var(--white-background);
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--section-space-large);
+  z-index: 20;
+  border-radius: var(--whyus-radius);
+  transition: border-radius 0.3s ease, max-width 0.3s ease;
+}
+
+.whyUsScrollRadius {
+  max-width: 100%;
+  border-radius: var(--whyus-scroll-radius);
+}
+
+.whyUsMainHeading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.whyUsMainHeading span:last-child {
+  margin-left: var(--whyus-heading-left-space);
+}
+
+.whyUsMainHeadingVisible {
+  opacity: 1;
+}
+
+.centerMainPara {
+  max-width: var(--whyus-para-width);
+  justify-self: center;
+  padding: var(--space-content);
+  font-size: var(--text-para-fontsize);
+}
+
+.whyUsMainFlexArea {
+  position: relative;
+}
+
+.whyUsMainFlex {
+  position: relative;
+  max-width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+/* ********************************************************************* whyus end *************************************** */
+
+.propertiesMain {
+  position: relative;
+  background: var(--white-background-200);
+  z-index: 20;
+  max-width: 100%;
+  width: 100%;
+  padding: var(--section-space-large);
+}
+
+.propertyMainHeading {
+  position: relative;
+  text-align: center;
+}
+
+.propertiesMainCardArea {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  flex-direction: column;
+  padding: var(--space-content-top);
+}
+
+.propertiesMainButtonArea {
+  position: relative;
+  padding: var(--space-content-top);
+  display: flex;
+  justify-content: center;
+}
+
+/* ************************************************************************ property end ********************************* */
+
+.mediaSection {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  z-index: 20;
+  background: var(--white-background);
+  padding: var(--section-space-large);
+}
+
+.mediaMainHeading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.mediaMainHeading span:last-child {
+  margin-left: 150px;
+}
+
+.mediaCardArea {
+  position: relative;
+  display: grid;
+  align-items: start;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: var(--space-content-top);
+}
+
+.mediaMainButtonArea {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: var(--space-content-top);
+}
+
+.mediaMobile {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .heroTextOne {
+    letter-spacing: -4px;
+  }
+
+  .heroTextTwo {
+    letter-spacing: -4px;
+  }
+
+  .heroContact {
+    left: 50%;
+    top: 60%;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    transform: translate(-50%, -40%);
+  }
+
+  /* hero end ***************** */
+
+  .whyUsMainFlex {
+    flex-direction: column;
+  }
+
+  .mediaMainHeading span:last-child {
+    margin-left: 0;
+  }
+
+  .mediaCardArea {
+    position: relative;
+    display: grid;
+    align-items: start;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: var(--space-content-top);
+  }
+
+  .mediaCardArea {
+    display: none;
+  }
+
+  .mediaMobile {
+    display: block;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .heroTextOne,
+  .heroTextTwo {
+    letter-spacing: -4px;
+  }
+
+  .heroContact {
+    left: 50%;
+    top: 60%;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    transform: translate(-50%, -40%);
+  }
+
+  .mediaMainHeading span:last-child {
+    margin-left: 0;
+  }
+
+  .mediaCardArea {
+    position: relative;
+    display: none;
+  }
+
+  .mediaMobile {
+    display: block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .whyUsMainFlex {
+    flex-direction: column;
+  }
+
+  .mediaCardArea {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    align-items: start;
+    padding: var(--space-content-top);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .whyUsMainFlex {
+    flex-direction: row;
+  }
+
+  .mediaCardArea {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    align-items: start;
+    padding: var(--space-content-top);
+  }
+}

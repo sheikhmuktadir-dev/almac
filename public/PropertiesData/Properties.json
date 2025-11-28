@@ -1,0 +1,1453 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Downtown Elegance Residences",
+      "url": "downtown-elegance",
+      "image": "/images/property/property1.webp",
+      "gallery": [
+        "/images/property/property1.webp",
+        "/images/property/gallery/property01.webp"
+      ],
+      "floorPlan": "/images/other/floorplan1.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 9.5M",
+      "priceNumeric": 9500000,
+      "bedrooms": "2 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 1850,
+      "status": "Ready",
+      "developer": "Emaar",
+      "completionDate": "2024",
+      "description": "Luxury high-floor apartment in Downtown Dubai with stunning Burj Khalifa views, premium interiors, and world-class amenities.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "LEISURE POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "OUTDOOR GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BARBECUE AREA" },
+        {
+          "icon": "/images/icons/picnics.png",
+          "label": "FAMILY BBQ & GATHERING SPACE"
+        }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 950,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 950,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 950,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 950,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 5,700,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Marina Waterfront Villas",
+      "url": "marina-waterfront",
+      "image": "/images/property/property2.webp",
+      "gallery": [
+        "/images/property/property2.webp",
+        "/images/property/gallery/property02.webp"
+      ],
+      "floorPlan": "/images/other/floorplan2.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 12M",
+      "priceNumeric": 12000000,
+      "bedrooms": "3 Bedrooms",
+      "propertyType": "Villa",
+      "areaSqft": 3200,
+      "status": "Ready",
+      "developer": "Sobha Realty",
+      "completionDate": "2023",
+      "description": "A premium waterfront villa in Dubai Marina featuring a private deck, large living spaces, and exclusive beach access.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "LAGOON BEACH" },
+        {
+          "icon": "/images/icons/picnics.png",
+          "label": "FAMILY BBQ & GATHERING SPACE"
+        },
+        { "icon": "/images/icons/fitness.png", "label": "CALISTHENIC GYM" },
+        {
+          "icon": "/images/icons/yatch.png",
+          "label": "YACHT CLUB WITH BOAT MOORING"
+        }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,200,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 1,200,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 1,200,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 1,200,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 7,200,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Palm Grove Apartments",
+      "url": "palm-grove",
+      "image": "/images/property/property3.webp",
+      "gallery": [
+        "/images/property/property3.webp",
+        "/images/property/gallery/property03.webp"
+      ],
+      "floorPlan": "/images/other/floorplan3.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 7.2M",
+      "priceNumeric": 7200000,
+      "bedrooms": "1 Bedroom",
+      "propertyType": "Apartment",
+      "areaSqft": 1260,
+      "status": "Off-Plan",
+      "developer": "DAMAC",
+      "completionDate": "2026",
+      "description": "Modern apartment with spacious layouts and lush green surroundings.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "ROOFTOP POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "FULLY EQUIPPED GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ ZONE" },
+        {
+          "icon": "/images/icons/picnics.png",
+          "label": "PICNIC & GATHERING AREA"
+        }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 720,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 720,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 720,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 720,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "During Construction (50%)",
+          "amount": "AED 3,600,000",
+          "percentage": "50%"
+        },
+        {
+          "installment": "On Handover 2026",
+          "amount": "AED 720,000",
+          "percentage": "10%"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Marina Skyline Residences",
+      "url": "marina-skyline",
+      "image": "/images/property/property4.webp",
+      "gallery": [
+        "/images/property/property4.webp",
+        "/images/property/gallery/property04.webp"
+      ],
+      "floorPlan": "/images/other/floorplan4.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 10.8M",
+      "priceNumeric": 10800000,
+      "bedrooms": "2 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 1450,
+      "status": "Ready",
+      "developer": "Select Group",
+      "completionDate": "2022",
+      "description": "Stunning high-rise apartment with full Marina skyline views.",
+      "amenities": [
+        {
+          "icon": "/images/icons/swimming-pool.png",
+          "label": "INFINITY SKY POOL"
+        },
+        { "icon": "/images/icons/fitness.png", "label": "SKY GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "SKY BBQ DECK" },
+        {
+          "icon": "/images/icons/picnics.png",
+          "label": "SKY LOUNGE & GATHERING"
+        }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 6,480,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Luxury Garden Villa",
+      "url": "luxury-garden",
+      "image": "/images/property/property5.webp",
+      "gallery": [
+        "/images/property/property5.webp",
+        "/images/property/gallery/property05.webp"
+      ],
+      "floorPlan": "/images/other/floorplan5.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 15M",
+      "priceNumeric": 15000000,
+      "bedrooms": "2 Bedrooms",
+      "propertyType": "Villa",
+      "areaSqft": 4000,
+      "status": "Ready",
+      "developer": "Meraas",
+      "completionDate": "2024",
+      "description": "Elegant villa designed with modern architecture and private amenities.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "PRIVATE POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "PRIVATE GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "OUTDOOR BBQ" },
+        { "icon": "/images/icons/picnics.png", "label": "LANDSCAPED GARDEN" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,500,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 1,500,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 1,500,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 1,500,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 9,000,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Urban Heights Apartments",
+      "url": "urban-heights",
+      "image": "/images/property/property6.webp",
+      "gallery": [
+        "/images/property/property6.webp",
+        "/images/property/gallery/property06.webp"
+      ],
+      "floorPlan": "/images/other/floorplan6.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 14M",
+      "priceNumeric": 14000000,
+      "bedrooms": "3 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 1700,
+      "status": "Off-Plan",
+      "developer": "Emaar",
+      "completionDate": "2027",
+      "description": "Contemporary apartment complex offering stylish interiors.",
+      "amenities": [
+        {
+          "icon": "/images/icons/swimming-pool.png",
+          "label": "TEMPERATURE-CONTROLLED POOL"
+        },
+        { "icon": "/images/icons/fitness.png", "label": "MODERN GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ TERRACE" },
+        { "icon": "/images/icons/picnics.png", "label": "RESIDENTS LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,400,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "During Construction",
+          "amount": "AED 8,400,000",
+          "percentage": "60%"
+        },
+        {
+          "installment": "On Handover 2027",
+          "amount": "AED 4,200,000",
+          "percentage": "30%"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Elite Marina Villas",
+      "url": "elite-marina",
+      "image": "/images/property/property7.webp",
+      "gallery": [
+        "/images/property/property7.webp",
+        "/images/property/gallery/property07.webp"
+      ],
+      "floorPlan": "/images/other/floorplan7.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 9M",
+      "priceNumeric": 9000000,
+      "bedrooms": "2 Bedrooms",
+      "propertyType": "Villa",
+      "areaSqft": 4600,
+      "status": "Ready",
+      "developer": "Sobha",
+      "completionDate": "2023",
+      "description": "Ultra-luxury villa with direct marina access.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "PRIVATE POOL" },
+        { "icon": "/images/icons/yatch.png", "label": "PRIVATE BOAT MOORING" },
+        { "icon": "/images/icons/fitness.png", "label": "HOME GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "ROOFTOP BBQ" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 900,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 900,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 900,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 900,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 5,400,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Downtown Sky Towers",
+      "url": "sky-towers",
+      "image": "/images/property/property8.webp",
+      "gallery": [
+        "/images/property/property8.webp",
+        "/images/property/gallery/property08.webp"
+      ],
+      "floorPlan": "/images/other/floorplan8.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 11M",
+      "priceNumeric": 11000000,
+      "bedrooms": "3 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 2100,
+      "status": "Ready",
+      "developer": "Emaar",
+      "completionDate": "2022",
+      "description": "High-end luxury residence with panoramic city views.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "SKY POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "SKY GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "SKY BBQ AREA" },
+        { "icon": "/images/icons/picnics.png", "label": "OBSERVATION DECK" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,100,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 1,100,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 1,100,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 1,100,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 6,600,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Marina Lagoon Villas",
+      "url": "marina-lagoon",
+      "image": "/images/property/property9.webp",
+      "gallery": [
+        "/images/property/property9.webp",
+        "/images/property/gallery/property09.webp"
+      ],
+      "floorPlan": "/images/other/floorplan9.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 25M",
+      "priceNumeric": 25000000,
+      "bedrooms": "2 Bedrooms",
+      "propertyType": "Villa",
+      "areaSqft": 6000,
+      "status": "Off-Plan",
+      "developer": "Nakheel",
+      "completionDate": "2028",
+      "description": "Super luxury villa overlooking a private lagoon.",
+      "amenities": [
+        {
+          "icon": "/images/icons/swimming-pool.png",
+          "label": "PRIVATE LAGOON POOL"
+        },
+        { "icon": "/images/icons/yatch.png", "label": "PRIVATE YACHT BERTH" },
+        { "icon": "/images/icons/fitness.png", "label": "WELLNESS GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "WATERFRONT BBQ" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 2,500,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "During Construction",
+          "amount": "AED 17,500,000",
+          "percentage": "70%"
+        },
+        {
+          "installment": "On Handover 2028",
+          "amount": "AED 5,000,000",
+          "percentage": "20%"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Downtown Chic Apartments",
+      "url": "downtown-chic",
+      "image": "/images/property/property10.webp",
+      "gallery": [
+        "/images/property/property10.webp",
+        "/images/property/gallery/property010.webp"
+      ],
+      "floorPlan": "/images/other/floorplan10.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 3.5M",
+      "priceNumeric": 3500000,
+      "bedrooms": "1 Bedroom",
+      "propertyType": "Apartment",
+      "areaSqft": 920,
+      "status": "Ready",
+      "developer": "Emaar",
+      "completionDate": "2021",
+      "description": "Stylish contemporary apartment ideal for professionals.",
+      "amenities": [
+        {
+          "icon": "/images/icons/swimming-pool.png",
+          "label": "COMMUNITY POOL"
+        },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ AREA" },
+        { "icon": "/images/icons/picnics.png", "label": "ROOFTOP LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 350,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 350,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 350,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 350,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 2,100,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Marina Pearl Residences",
+      "url": "marina-pearl",
+      "image": "/images/property/property11.webp",
+      "gallery": [
+        "/images/property/property11.webp",
+        "/images/property/gallery/property011.webp"
+      ],
+      "floorPlan": "/images/other/floorplan11.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 10.8M",
+      "priceNumeric": 10800000,
+      "bedrooms": "1 Bedroom",
+      "propertyType": "Apartment",
+      "areaSqft": 1380,
+      "status": "Ready",
+      "developer": "Emaar",
+      "completionDate": "2020",
+      "description": "Elegant sea-view apartment in the heart of Dubai Marina.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "INFINITY POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM & SAUNA" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ DECK" },
+        { "icon": "/images/icons/picnics.png", "label": "RESIDENTS LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 6,480,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Downtown Prime Suites",
+      "url": "downtown-prime",
+      "image": "/images/property/property12.webp",
+      "gallery": [
+        "/images/property/property12.webp",
+        "/images/property/gallery/property012.webp"
+      ],
+      "floorPlan": "/images/other/floorplan12.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 9.9M",
+      "priceNumeric": 9900000,
+      "bedrooms": "3 Bedrooms",
+      "propertyType": "Villa",
+      "areaSqft": 890,
+      "status": "Ready",
+      "developer": "Emaar",
+      "completionDate": "2021",
+      "description": "Luxury residence walking distance to Dubai Mall.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "PRIVATE POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "HOME GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "ROOFTOP BBQ" },
+        { "icon": "/images/icons/picnics.png", "label": "GARDEN LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 990,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 990,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 990,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 990,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 5,940,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Marina Coral Villas",
+      "url": "marina-coral",
+      "image": "/images/property/property13.webp",
+      "gallery": [
+        "/images/property/property13.webp",
+        "/images/property/gallery/property013.webp"
+      ],
+      "floorPlan": "/images/other/floorplan13.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 8M",
+      "priceNumeric": 8000000,
+      "bedrooms": "1 Bedroom",
+      "propertyType": "Villa",
+      "areaSqft": 3500,
+      "status": "Ready",
+      "developer": "Sobha",
+      "completionDate": "2024",
+      "description": "Exclusive villa with private parking and rooftop terrace.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "PRIVATE POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "ROOFTOP BBQ" },
+        { "icon": "/images/icons/picnics.png", "label": "TERRACE LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 4,800,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Skyline Family Apartments",
+      "url": "skyline-family",
+      "image": "/images/property/property14.webp",
+      "gallery": [
+        "/images/property/property14.webp",
+        "/images/property/gallery/property014.webp"
+      ],
+      "floorPlan": "/images/other/floorplan14.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 6.5M",
+      "priceNumeric": 6500000,
+      "bedrooms": "3 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 2000,
+      "status": "Ready",
+      "developer": "DAMAC",
+      "completionDate": "2023",
+      "description": "Spacious family apartment with Burj Khalifa view balcony.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "FAMILY POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ AREA" },
+        { "icon": "/images/icons/picnics.png", "label": "KIDS PLAY ZONE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 650,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 650,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 650,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 650,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 3,900,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Crescent Marina Apartments",
+      "url": "crescent-marina",
+      "image": "/images/property/property15.webp",
+      "gallery": [
+        "/images/property/property15.webp",
+        "/images/property/gallery/property015.webp"
+      ],
+      "floorPlan": "/images/other/floorplan15.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 8.2M",
+      "priceNumeric": 8200000,
+      "bedrooms": "3 Bedrooms",
+      "propertyType": "Villa",
+      "areaSqft": 1600,
+      "status": "Off-Plan",
+      "developer": "Emaar",
+      "completionDate": "2026",
+      "description": "Modern waterfront apartment ideal for luxury seekers.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "LAGOON POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ DECK" },
+        { "icon": "/images/icons/yatch.png", "label": "YACHT CLUB ACCESS" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 820,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "During Construction",
+          "amount": "AED 4,920,000",
+          "percentage": "60%"
+        },
+        {
+          "installment": "On Handover 2026",
+          "amount": "AED 2,460,000",
+          "percentage": "30%"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Downtown Urban Villas",
+      "url": "urban-villas",
+      "image": "/images/property/property16.webp",
+      "gallery": [
+        "/images/property/property16.webp",
+        "/images/property/gallery/property016.webp"
+      ],
+      "floorPlan": "/images/other/floorplan16.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 20M",
+      "priceNumeric": 20000000,
+      "bedrooms": "3 Bedrooms",
+      "propertyType": "Villa",
+      "areaSqft": 5200,
+      "status": "Ready",
+      "developer": "Meraas",
+      "completionDate": "2022",
+      "description": "High-end ultra luxury villa with private elevator.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "PRIVATE POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "PRIVATE GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "ROOFTOP BBQ" },
+        { "icon": "/images/icons/picnics.png", "label": "PRIVATE GARDEN" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 2,000,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 2,000,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 2,000,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 2,000,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 12,000,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Marina Blue Horizon",
+      "url": "marina-blue-horizon",
+      "image": "/images/property/property17.webp",
+      "gallery": [
+        "/images/property/property17.webp",
+        "/images/property/gallery/property017.webp"
+      ],
+      "floorPlan": "/images/other/floorplan17.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 9.2M",
+      "priceNumeric": 9200000,
+      "bedrooms": "2 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 1750,
+      "status": "Ready",
+      "developer": "Emaar",
+      "completionDate": "2023",
+      "description": "Premium lakeside apartment with uninterrupted skyline views.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "INFINITY POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ AREA" },
+        { "icon": "/images/icons/picnics.png", "label": "SKY LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 920,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 920,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 920,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 920,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 5,520,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Downtown Signature Villa",
+      "url": "signature-villa",
+      "image": "/images/property/property18.webp",
+      "gallery": [
+        "/images/property/property18.webp",
+        "/images/property/gallery/property018.webp"
+      ],
+      "floorPlan": "/images/other/floorplan18.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 8M",
+      "priceNumeric": 8000000,
+      "bedrooms": "1 Bedroom",
+      "propertyType": "Villa",
+      "areaSqft": 7500,
+      "status": "Ready",
+      "developer": "Sobha",
+      "completionDate": "2023",
+      "description": "Ultra premium villa with exclusive outdoor lounge.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "PRIVATE POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ TERRACE" },
+        { "icon": "/images/icons/picnics.png", "label": "PRIVATE GARDEN" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 4,800,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Marina Budget Suites",
+      "url": "marina-budget-suites",
+      "image": "/images/property/property19.webp",
+      "gallery": [
+        "/images/property/property19.webp",
+        "/images/property/gallery/property019.webp"
+      ],
+      "floorPlan": "/images/other/floorplan19.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 3.8M",
+      "priceNumeric": 3800000,
+      "bedrooms": "1 Bedroom",
+      "propertyType": "Apartment",
+      "areaSqft": 900,
+      "status": "Ready",
+      "developer": "DAMAC",
+      "completionDate": "2020",
+      "description": "Affordable luxury apartment with marina access.",
+      "amenities": [
+        {
+          "icon": "/images/icons/swimming-pool.png",
+          "label": "COMMUNITY POOL"
+        },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ AREA" },
+        { "icon": "/images/icons/picnics.png", "label": "LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 380,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 380,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 380,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 380,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 2,280,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Downtown Luxe Suites",
+      "url": "downtown-luxe",
+      "image": "/images/property/property20.webp",
+      "gallery": [
+        "/images/property/property20.webp",
+        "/images/property/gallery/property020.webp"
+      ],
+      "floorPlan": "/images/other/floorplan20.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 6.2M",
+      "priceNumeric": 6200000,
+      "bedrooms": "2 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 1500,
+      "status": "Off-Plan",
+      "developer": "Nakheel",
+      "completionDate": "2026",
+      "description": "Modern living steps away from Dubai Mall.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "ROOFTOP POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ ZONE" },
+        { "icon": "/images/icons/picnics.png", "label": "RESIDENTS LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 620,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "During Construction",
+          "amount": "AED 3,720,000",
+          "percentage": "60%"
+        },
+        {
+          "installment": "On Handover 2026",
+          "amount": "AED 1,860,000",
+          "percentage": "30%"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Marina Royal Garden Villas",
+      "url": "marina-royal-garden",
+      "image": "/images/property/property21.webp",
+      "gallery": [
+        "/images/property/property21.webp",
+        "/images/property/gallery/property021.webp"
+      ],
+      "floorPlan": "/images/other/floorplan21.pdf",
+      "location": "Dubai Marina",
+      "price": "AED 32M",
+      "priceNumeric": 32000000,
+      "bedrooms": "1 Bedroom",
+      "propertyType": "Villa",
+      "areaSqft": 8500,
+      "status": "Off-Plan",
+      "developer": "Meraas",
+      "completionDate": "2028",
+      "description": "Exclusive family villa on a private landscaped island.",
+      "amenities": [
+        {
+          "icon": "/images/icons/swimming-pool.png",
+          "label": "PRIVATE ISLAND POOL"
+        },
+        { "icon": "/images/icons/yatch.png", "label": "PRIVATE YACHT BERTH" },
+        { "icon": "/images/icons/fitness.png", "label": "PRIVATE GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "ISLAND BBQ" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 3,200,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "During Construction",
+          "amount": "AED 22,400,000",
+          "percentage": "70%"
+        },
+        {
+          "installment": "On Handover 2028",
+          "amount": "AED 6,400,000",
+          "percentage": "20%"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Downtown Signature Garden Villa",
+      "url": "downtown-signature",
+      "image": "/images/property/property22.webp",
+      "floorPlan": "/images/other/floorplan22.pdf",
+      "gallery": [
+        "/images/property/property22.webp",
+        "/images/property/gallery/property022.webp"
+      ],
+      "location": "Downtown Dubai",
+      "price": "AED 18M",
+      "priceNumeric": 18000000,
+      "bedrooms": "1 Bedroom",
+      "propertyType": "Villa",
+      "areaSqft": 5200,
+      "status": "Ready",
+      "developer": "Sobha Realty",
+      "completionDate": "2024",
+      "description": "Ultra-modern signature villa with private garden decks.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "PRIVATE POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ DECK" },
+        { "icon": "/images/icons/picnics.png", "label": "GARDEN LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 1,800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 1,800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 1,800,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 10,800,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Downtown Urban Lifestyle Villas",
+      "url": "downtown-urban",
+      "image": "/images/property/property23.webp",
+      "floorPlan": "/images/other/floorplan23.pdf",
+      "gallery": [
+        "/images/property/property23.webp",
+        "/images/property/gallery/property023.webp"
+      ],
+      "location": "Downtown Dubai",
+      "price": "AED 9.4M",
+      "priceNumeric": 9400000,
+      "bedrooms": "2 Bedrooms",
+      "propertyType": "Villa",
+      "areaSqft": 4100,
+      "status": "Off-Plan",
+      "developer": "Emaar",
+      "completionDate": "2027",
+      "description": "Modern villa community surrounded by green spaces.",
+      "amenities": [
+        {
+          "icon": "/images/icons/swimming-pool.png",
+          "label": "COMMUNITY POOL"
+        },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ AREA" },
+        { "icon": "/images/icons/picnics.png", "label": "PARK & PLAY AREA" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 940,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "During Construction",
+          "amount": "AED 5,640,000",
+          "percentage": "60%"
+        },
+        {
+          "installment": "On Handover 2027",
+          "amount": "AED 2,820,000",
+          "percentage": "30%"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Marina Grand Skyline Residences",
+      "url": "marina-grand-skyline",
+      "image": "/images/property/property24.webp",
+      "floorPlan": "/images/other/floorplan1.pdf",
+      "gallery": [
+        "/images/property/property24.webp",
+        "/images/property/gallery/property024.webp"
+      ],
+      "location": "Dubai Marina",
+      "price": "AED 9.2M",
+      "priceNumeric": 9200000,
+      "bedrooms": "3 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 2100,
+      "status": "Ready",
+      "developer": "Select Group",
+      "completionDate": "2023",
+      "description": "Premium high-floor residence with Marina views.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "SKY POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "SKY GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "SKY BBQ" },
+        { "icon": "/images/icons/picnics.png", "label": "SKY LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1234!2d55.1372!3d25.0778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA0JzQwLjAiTiA1NcKwMDgnMTIuMCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 920,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 920,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 920,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 920,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 5,520,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Downtown Elite Sky Residences",
+      "url": "downtown-elite-sky",
+      "image": "/images/property/property25.webp",
+      "floorPlan": "/images/other/floorplan2.pdf",
+      "gallery": [
+        "/images/property/property25.webp",
+        "/images/property/gallery/property025.webp"
+      ],
+      "location": "Downtown Dubai",
+      "price": "AED 14.5M",
+      "priceNumeric": 14500000,
+      "bedrooms": "3 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 2350,
+      "status": "Ready",
+      "developer": "DAMAC",
+      "completionDate": "2024",
+      "description": "Luxury sky-level apartment with panoramic Burj Khalifa views.",
+      "amenities": [
+        {
+          "icon": "/images/icons/swimming-pool.png",
+          "label": "SKY INFINITY POOL"
+        },
+        { "icon": "/images/icons/fitness.png", "label": "SKY GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "SKY BBQ" },
+        { "icon": "/images/icons/picnics.png", "label": "OBSERVATION LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,450,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "2nd Installment",
+          "amount": "AED 1,450,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "3rd Installment",
+          "amount": "AED 1,450,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "4th Installment",
+          "amount": "AED 1,450,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "On Handover",
+          "amount": "AED 8,700,000",
+          "percentage": "60%"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Downtown Premium One Suite",
+      "url": "downtown-premium-suite",
+      "image": "/images/property/property26.webp",
+      "floorPlan": "/images/other/floorplan3.pdf",
+      "gallery": [
+        "/images/property/property26.webp",
+        "/images/property/gallery/property026.webp"
+      ],
+      "location": "Downtown Dubai",
+      "price": "AED 10.8M",
+      "priceNumeric": 10800000,
+      "bedrooms": "1 Bedroom",
+      "propertyType": "Apartment",
+      "areaSqft": 1300,
+      "status": "Off-Plan",
+      "developer": "Meraas",
+      "completionDate": "2026",
+      "description": "Premium suite apartment designed for luxury professionals.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "ROOFTOP POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ AREA" },
+        { "icon": "/images/icons/picnics.png", "label": "RESIDENTS LOUNGE" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "During Construction",
+          "amount": "AED 6,480,000",
+          "percentage": "60%"
+        },
+        {
+          "installment": "On Handover 2026",
+          "amount": "AED 3,240,000",
+          "percentage": "30%"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Downtown Premium Suite",
+      "url": "downtown-premium-suite",
+      "image": "/images/property/property27.webp",
+      "gallery": [
+        "/images/property/property27.webp",
+        "/images/property/gallery/property027.webp"
+      ],
+      "floorPlan": "/images/other/floorplan3.pdf",
+      "location": "Downtown Dubai",
+      "price": "AED 10.8M",
+      "priceNumeric": 10800000,
+      "bedrooms": "2 Bedrooms",
+      "propertyType": "Apartment",
+      "areaSqft": 1100,
+      "status": "Off-Plan",
+      "developer": "Meraas",
+      "completionDate": "2026",
+      "description": "Premium suite with panoramic Downtown skyline views.",
+      "amenities": [
+        { "icon": "/images/icons/swimming-pool.png", "label": "INFINITY POOL" },
+        { "icon": "/images/icons/fitness.png", "label": "GYM & YOGA" },
+        { "icon": "/images/icons/bbq.png", "label": "BBQ DECK" },
+        { "icon": "/images/icons/picnics.png", "label": "SKY GARDEN" }
+      ],
+      "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2838!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE0JzUwLjAiTiA1NcKwMTYnMTIuOCJF!5e0!3m2!1sen!2sae!4v1733210000000!5m2!1sen!2sae",
+      "paymentPlan": [
+        {
+          "installment": "1st Installment",
+          "amount": "AED 1,080,000",
+          "percentage": "10%"
+        },
+        {
+          "installment": "During Construction",
+          "amount": "AED 6,480,000",
+          "percentage": "60%"
+        },
+        {
+          "installment": "On Handover 2026",
+          "amount": "AED 3,240,000",
+          "percentage": "30%"
+        }
+      ]
+    }
+  ]
+}

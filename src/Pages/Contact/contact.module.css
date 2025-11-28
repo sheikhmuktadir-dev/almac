@@ -1,0 +1,75 @@
+.contactBanner {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  height: var(--inner-height);
+}
+
+.contactBanner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--main-overlay);
+  z-index: 10;
+}
+
+.contactBannerImage {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+  height: 100%;
+  max-width: 100%;
+}
+
+.contactGrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--contact-grid);
+  gap: var(--contact-grid-gap);
+  align-items: center;
+}
+
+.contactMap {
+  position: relative;
+  height: var(--contact-map-height);
+  filter: grayscale(100%);
+}
+
+.contactBoxArea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--contact-box-gap);
+}
+
+.contactBox {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--contact-box-gap);
+  width: 100%;
+}
+
+.contactText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactBoxIcon {
+  position: relative;
+  max-width: var(--contact-iconsize);
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 1023.98px) {
+  .contactGrid {
+    padding: var(--section-space-large);
+  }
+}
