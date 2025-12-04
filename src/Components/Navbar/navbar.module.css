@@ -104,9 +104,11 @@
   top: var(--navbar-toggle-postion-top);
   opacity: 0;
   padding: var(--navbar-toggle-padding);
-  height: var(--button-height-one);
+  height: var(--navbar-menu-close-btn-size);
   border-radius: var(--button-radius);
+  font-size: var(--navbar-menu-close-btn-fontsize);
   display: flex;
+  width: var(--navbar-menu-close-btn-size);
   align-items: center;
   justify-content: center;
   line-height: 1;
@@ -143,7 +145,7 @@
 }
 
 .navbarToggle:hover {
-  color: var(--black-color);
+  color: var(--white-color);
 }
 
 .navbarToggleVisible {
@@ -234,7 +236,7 @@
 }
 
 .navbarToggleClose:hover {
-  color: var(--black-color);
+  color: var(--white-color);
 }
 
 .navbarMenuList {
@@ -243,7 +245,8 @@
   height: 100%;
   flex-direction: column;
   gap: var(--navbar-menu-list-gap);
-  align-items: center;
+  align-items: start;
+  justify-self: center;
   justify-content: center;
 }
 
@@ -263,7 +266,7 @@
 }
 
 .menuActive {
-  color: var(--navy-color);
+  color: var(--gold-color);
 }
 
 .navbarMenuLink:hover {

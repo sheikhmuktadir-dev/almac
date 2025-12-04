@@ -3,7 +3,6 @@
   max-width: 100%;
   width: 100%;
   background: var(--white-background-100);
-  border-top: 1px solid var(--border-gray);
   padding: var(--section-space-large);
 }
 

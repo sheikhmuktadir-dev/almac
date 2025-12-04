@@ -4,7 +4,6 @@
   height: var(--about-height);
   width: 100%;
   display: flex;
-  overflow: hidden;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -25,51 +24,76 @@
   padding: var(--space-content-top);
   border-radius: var(--about-lagacy-image-radius);
   transition: all 0.9s ease;
+  z-index: -1;
+}
+
+.level0 {
+  max-width: var(--about-lagacy-image-width);
+}
+.level1 {
+  max-width: 30%;
+}
+.level2 {
+  max-width: 40%;
+}
+.level3 {
+  max-width: 45%;
+}
+.level4 {
+  max-width: 50%;
+}
+.level5 {
+  max-width: 55%;
+}
+.level6 {
+  max-width: 65%;
+}
+.level7 {
+  max-width: 75%;
+}
+.level8 {
+  max-width: 85%;
+}
+.level9 {
+  max-width: 95%;
+}
+.level10 {
+  max-width: 100%;
 }
 
 .level0 {
   max-width: var(--about-lagacy-image-width);
   padding: 40px 0 0;
 }
-.level1 {
-  max-width: 37%;
-  padding: 36px 0 0;
+.text1 {
+  opacity: 1;
 }
-.level2 {
-  max-width: 44%;
-  padding: 32px 0 0;
+.text2 {
+  opacity: 0.8;
 }
-.level3 {
-  max-width: 51%;
-  padding: 28px 0 0;
+.text3 {
+  opacity: 0.6;
 }
-.level4 {
-  max-width: 58%;
-  padding: 24px 0 0;
+.text4 {
+  opacity: 0.4;
 }
-.level5 {
-  max-width: 65%;
-  padding: 20px 0 0;
+.text5 {
+  opacity: 0.2;
 }
-.level6 {
-  max-width: 72%;
-  padding: 16px 0 0;
+.text6 {
+  opacity: 0;
 }
-.level7 {
-  max-width: 79%;
-  padding: 12px 0 0;
+.text7 {
+  opacity: 0;
 }
-.level8 {
-  max-width: 86%;
-  padding: 8px 0 0;
+.text8 {
+  opacity: 0;
 }
-.level9 {
-  max-width: 93%;
-  padding: 4px 0 0;
+.text9 {
+  opacity: 0;
 }
-.level10 {
-  max-width: 100%;
-  padding: 0px;
+.text10 {
+  opacity: 0;
 }
 
 .lagacyImage {
@@ -125,7 +149,6 @@
 .storySection {
   position: relative;
   max-width: 100%;
-  background: var(--white-background-200);
   width: 100%;
   padding: var(--section-space-large);
 }
@@ -148,7 +171,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    padding: var(--section-space-large);
+    padding: var(--section-spcae-top-large);
     gap: 30px;
   }
 
@@ -169,6 +192,19 @@
   .level10 {
     max-width: 100%;
     padding: 0;
+  }
+
+  .text1,
+  .text2,
+  .text3,
+  .text4,
+  .text5,
+  .text6,
+  .text7,
+  .text8,
+  .text9,
+  .text10 {
+    opacity: 1;
   }
 
   .lagacyYears {

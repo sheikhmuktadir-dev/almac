@@ -16,8 +16,7 @@ export default function Media() {
       <div className={Style.mediaSection}>
         <Container>
           <h2 className={Style.mediaMainHeading}>
-            <span>{heading?.line1 || "Developer"}</span>
-            <span>{heading?.line2 || "News & Media"}</span>
+            {heading?.line2 || "Media Center"}
           </h2>
 
           <p className={Style.centerMainPara}>
@@ -51,7 +50,7 @@ export default function Media() {
 
           {/* media card mobile & tablet */}
           <div className={Style.mediaMobile}>
-            <Slider duration={3000} space={20}>
+            <Slider duration={3000} totalSlide={2} space={20}>
               {cards?.length > 0 ? (
                 cards.map((item, index) => (
                   <SwiperSlide key={index}>

@@ -22,7 +22,7 @@ body {
   font-weight: var(--font-weight-400);
   line-height: 1.6;
   color: var(--black-color);
-  background: var(--white-background-100);
+  background: var(--white-background);
   overflow-wrap: break-word;
 }
 
@@ -106,7 +106,6 @@ main {
 
 h1 {
   font-size: var(--text-h1-fontsize);
-  text-transform: uppercase;
   font-weight: var(--font-weight-300);
   line-height: 1em;
   font-family: var(--font-main);
@@ -114,7 +113,6 @@ h1 {
 
 h2 {
   font-size: var(--text-h2-fontsize);
-  text-transform: uppercase;
   font-weight: var(--font-weight-300);
   line-height: 1em;
   font-family: var(--font-main);
@@ -122,25 +120,29 @@ h2 {
 
 h3 {
   font-size: var(--text-h3-fontsize);
-  text-transform: uppercase;
   font-weight: var(--font-weight-300);
-  line-height: 1.2em;
+  line-height: 1em;
   font-family: var(--font-main);
 }
 
 h4 {
   font-size: var(--text-h4-fontsize);
-  text-transform: uppercase;
   font-weight: var(--font-weight-300);
-  line-height: 1.3em;
+  line-height: 1.1em;
   font-family: var(--font-main);
 }
 
 h5 {
   font-size: var(--text-h5-fontsize);
-  text-transform: uppercase;
   font-weight: var(--font-weight-300);
-  line-height: 1.4em;
+  line-height: 1.1em;
+  font-family: var(--font-main);
+}
+
+h6 {
+  font-size: var(--text-h6-fontsize);
+  font-weight: var(--font-weight-300);
+  line-height: 1.1em;
   font-family: var(--font-main);
 }
 

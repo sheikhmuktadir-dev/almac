@@ -3,10 +3,9 @@ import Section from "../../Components/Section/Section";
 import Style from "./about.module.css";
 import { legacyData } from "../../Data/DataMain";
 import bannerImage from "/images/about/lagacybanner.webp";
-import bgImage from "/images/other/uaemap.png";
 
 export default function Legacy() {
-  const { banner, dotBg, years, description } = legacyData || {};
+  const { banner, years, description } = legacyData || {};
 
   const [level, setLevel] = useState(0);
 
@@ -14,7 +13,7 @@ export default function Legacy() {
     const handleScroll = () => {
       const y = window.scrollY;
 
-      const newLevel = Math.min(Math.floor(y / 20), 10);
+      const newLevel = Math.min(Math.floor(y / 60), 10);
       setLevel(newLevel);
     };
 
@@ -25,7 +24,7 @@ export default function Legacy() {
   return (
     <Section>
       <div className={`${Style.lagacySection}`}>
-        <h2 className={Style.lagacyYears}>
+        <h2 className={`${Style.lagacyYears} ${Style[`text${level}`]}`}>
           <b>{years.count || "30"}</b>
           <span>{years.text || "years of Incredible Legacy"}</span>
         </h2>
@@ -39,14 +38,7 @@ export default function Legacy() {
           />
         </div>
 
-        <img
-          src={dotBg || bgImage}
-          loading="lazy"
-          alt="bg image"
-          className={Style.lagacyDotBg}
-        />
-
-        <p className={Style.lagacyPara}>
+        <p className={`${Style.lagacyPara} ${Style[`text${level}`]}`}>
           {description ||
             "Almac Real Estate is a UAE-based property company built on innovation and integrity. Founded by passionate entrepreneurs, we focus on quality-driven real estate solutions."}
         </p>

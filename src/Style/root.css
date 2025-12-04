@@ -18,34 +18,34 @@
   --font-secondary: "Lato", "Open Sans", sans-serif;
 
   /* container */
-  --container-width: 1440px;
+  --container-width: 1680px;
   --container-space: clamp(16px, 3vw, 48px);
 
   /* navbar */
   --navbar-position: absolute;
-  --navbar-top: 50px;
+  --navbar-top: 40px;
   --navbar-zindex: 9999;
-  --navbar-logo-fontsize-one: 40px;
-  --navbar-logo-fontsize-two: 15px;
+  --navbar-logo-fontsize-one: 45px;
+  --navbar-logo-fontsize-two: 16px;
   --navbar-list-gap: 40px;
   --navbar-toggle-position: fixed;
   --navbar-toggle-postion-right: 40px;
   --navbar-toggle-postion-top: 40px;
-  --navbar-toggle-padding: 0 20px;
+  --navbar-toggle-padding: 0 10px;
   --navbar-toggle-zindex: 99999;
   --navbar-menu-position: fixed;
-  --navbar-menu-width: 50%;
+  --navbar-menu-width: 40%;
   --navbar-menu-height: 100vh;
   --navbar-menu-zindex: 999999;
   --navbar-menu-padding: 60px 0;
   --navbar-menu-background: rgba(21, 21, 21, 0.3);
   --navbar-menu-close-btn-size: 60px;
   --navbar-menu-close-btn-fontsize: 30px;
-  --navbar-menu-list-gap: 20px;
+  --navbar-menu-list-gap: 30px;
 
   /* footer */
-  --footer-logo-fontsize-one: 40px;
-  --footer-logo-fontsize-two: 15px;
+  --footer-logo-fontsize-one: 45px;
+  --footer-logo-fontsize-two: 16px;
   --footer-social-gap: 20px;
   --footer-grid: repeat(4, 1fr);
   --footer-list-gap: 10px;
@@ -58,7 +58,7 @@
   /* about lagacy */
   --about-lagacy-image-width: 25%;
   --about-lagacy-image-radius: 10px;
-  --about-lagacy-year-width: 150px;
+  --about-lagacy-year-width: 200px;
   --about-lagacy-image-height: 100%;
   --about-lagacy-year-left: 15%;
   --about-lagacy-year-top: 30%;
@@ -81,9 +81,9 @@
   /* contact */
   --contact-grid: repeat(2, 1fr);
   --contact-grid-gap: 60px;
-  --contact-map-height: 700px;
+  --contact-map-height: 90vh;
   --contact-iconsize: 40px;
-  --contact-box-gap: 40px;
+  --contact-box-gap: 60px;
 
   /* details */
   --details-grid: 2fr 1fr;
@@ -95,6 +95,7 @@
   --button-padding-one: 0 40px;
   --button-padding-two: 0 60px;
   --button-radius: 100px;
+  --button-radius2: 10px;
 
   /* accordion */
   --accordion-gap: 20px;
@@ -120,8 +121,8 @@
   --team-overlay: rgba(0, 0, 0, 0.5);
 
   /*why us card */
-  --whyuscard-size: 380px;
-  --whyuscard-padding: 35px;
+  --whyuscard-size: 440px;
+  --whyuscard-padding: 20px;
   --whyus-card-gap: 60px;
   --whyus-icon-size: 65px;
   --whyus-card-radius: 100%;
@@ -138,7 +139,7 @@
   --sticky-card-icon-size: 50px;
 
   /* mediacard */
-  --mediacard-image-height: 380px;
+  --mediacard-image-height: 440px;
   --mediacard-radius: 10px;
   --mediacard-margin-top: 100px;
   --mediacard-image-radius: 10px 10px 0 0;
@@ -154,7 +155,7 @@
   /* team card */
   --teamcard-width: 450px;
   --teamcard-expand-width: 100%;
-  --teamcard-height: 550px;
+  --teamcard-height: 600px;
   --teamcard-content-left: 30px;
   --teamcard-content-bottom: 50px;
 
@@ -173,8 +174,8 @@
   --white-background-200: #efefef;
   --black-background: #222222;
   --gray-background: #9d9d9c;
-  --navy-background: #071c35;
-  --gold-background: #d5b9a1;
+  --navy-background: #00274d;
+  --gold-background: #c0aa71;
 
   /* color */
   --white-color: #ffffff;
@@ -182,27 +183,29 @@
   --gray-color: #9d9d9c;
   --gray-light-color: #999999;
   --navy-color: #071c35;
-  --gold-color: #d5b9a1;
+  --gold-color: #c0aa71;
 
   /* border */
   --border-gray: #9d9d9c;
   --border-black: #222222e1;
-  --border-gold: #d5b9a1;
+  --border-gold: #c0aa71;
+  --border-navy: #071c35;
 
   /* font size */
-  --navbar-menu-link-fontsize: 80px;
-  --text-verylarge-fontsize: 22rem;
-  --text-normal-fontsize: 1rem;
-  --text-h1-fontsize: 9rem;
-  --text-h2-fontsize: 6rem;
-  --text-h3-fontsize: 5rem;
-  --text-h4-fontsize: 3rem;
-  --text-h5-fontsize: 1.6rem;
-  --text-para-fontsize: 18px;
+  --navbar-menu-link-fontsize: 50px;
+  --text-verylarge-fontsize: 23rem;
+  --text-normal-fontsize: 18px;
+  --text-h1-fontsize: 10rem;
+  --text-h2-fontsize: 8rem;
+  --text-h3-fontsize: 6rem;
+  --text-h4-fontsize: 4.5rem;
+  --text-h5-fontsize: 2.5rem;
+  --text-h6-fontsize: 2rem;
+  --text-para-fontsize: 20px;
 
   /* content height */
   --hero-height: 100vh;
-  --inner-height: 600px;
+  --inner-height: 90vh;
   --about-height: 90vh;
 
   /* space */
@@ -219,16 +222,16 @@
     --container-width: 100%;
 
     /* navbar */
-    --navbar-top: 30px;
+    --navbar-top: 20px;
     --navbar-logo-fontsize-one: 35px;
     --navbar-logo-fontsize-two: 12px;
     --navbar-toggle-postion-right: 15px;
     --navbar-toggle-postion-top: 30px;
-    --navbar-toggle-padding: 0 15px;
+    --navbar-toggle-padding: 0 5px;
     --navbar-menu-width: 100%;
     --navbar-menu-padding: 30px 0;
     --navbar-menu-close-btn-size: 40px;
-    --navbar-menu-close-btn-fontsize: 20px;
+    --navbar-menu-close-btn-fontsize: 25px;
 
     /* footer */
     --footer-logo-fontsize-one: 35px;
@@ -282,14 +285,15 @@
     --accordion-para-width: 100%;
 
     /* font size */
-    --navbar-menu-link-fontsize: 40px;
-    --text-verylarge-fontsize: 5.5rem;
+    --navbar-menu-link-fontsize: 35px;
+    --text-verylarge-fontsize: 6rem;
     --text-normal-fontsize: 1rem;
     --text-h1-fontsize: 3.5rem;
     --text-h2-fontsize: 2.5rem;
     --text-h3-fontsize: 2rem;
     --text-h4-fontsize: 1.5rem;
     --text-h5-fontsize: 1.2rem;
+    --text-h6-fontsize: 1rem;
     --text-para-fontsize: 1rem;
 
     /* space */
@@ -299,7 +303,7 @@
     --space-content-top: 30px 0 0;
 
     /* content height */
-    --inner-height: 380px;
+    --inner-height: 400px;
 
     /*why us card */
     --whyuscard-size: 280px;
@@ -309,26 +313,26 @@
 
     /* sticky card */
     --sticky-card-list-padding: 15px 0;
-    --sticky-card-item-gap: 15px;
-    --sticky-card-icon-size: 35px;
+    --sticky-card-item-gap: 10px;
+    --sticky-card-icon-size: 30px;
     --sticky-card-list-gap: 10px;
     --sticky-card-item-padding: 15px;
-    --sticky-card-height: 80vh;
+    --sticky-card-height: 90vh;
 
     /* mediacard */
-    --mediacard-image-height: 280px;
+    --mediacard-image-height: 340px;
     --mediacard-margin-top: 0;
     --mediacard-text-padding: 15px;
 
     /* property card */
-    --propertycard-image: 280px;
+    --propertycard-image: 340px;
     --propertycard-grid: 1fr;
     --propertycard-gap: 20px;
     --propertycard-radius: 10px;
 
     /* team card */
     --teamcard-width: 100%;
-    --teamcard-height: 380px;
+    --teamcard-height: 400px;
     --teamcard-content-left: 20px;
     --teamcard-content-bottom: 30px;
 
@@ -349,21 +353,22 @@
     --navbar-logo-fontsize-two: 14px;
     --navbar-toggle-postion-right: 30px;
     --navbar-toggle-postion-top: 30px;
-    --navbar-toggle-padding: 0 15px;
+    --navbar-toggle-padding: 0 10px;
     --navbar-menu-width: 100%;
     --navbar-menu-padding: 30px 0;
     --navbar-menu-close-btn-size: 45px;
     --navbar-menu-close-btn-fontsize: 20px;
 
     /* font size */
-    --navbar-menu-link-fontsize: 50px;
-    --text-verylarge-fontsize: 10.5rem;
+    --navbar-menu-link-fontsize: 35px;
+    --text-verylarge-fontsize: 12rem;
     --text-normal-fontsize: 1rem;
     --text-h1-fontsize: 6.5rem;
     --text-h2-fontsize: 4.5rem;
     --text-h3-fontsize: 2rem;
     --text-h4-fontsize: 1.5rem;
     --text-h5-fontsize: 1.2rem;
+    --text-h6-fontsize: 1rem;
     --text-para-fontsize: 1rem;
 
     /* why us */
@@ -379,7 +384,7 @@
     --whyus-icon-size: 50px;
 
     /* mediacard */
-    --mediacard-image-height: 300px;
+    --mediacard-image-height: 400px;
     --mediacard-margin-top: 0;
     --mediacard-text-padding: 15px;
 
@@ -397,7 +402,7 @@
 
     /* content height */
     --hero-height: 100vh;
-    --inner-height: 400px;
+    --inner-height: 500px;
 
     /* contact */
     --contact-grid: 1fr;
@@ -444,7 +449,7 @@
     --propertycard-radius: 10px;
 
     /* sticky card */
-    --sticky-card-height: 80vh;
+    --sticky-card-height: 90vh;
 
     /* details */
     --details-grid: 1.5fr 1fr;
@@ -457,20 +462,29 @@
     /* container */
     --container-width: 100%;
 
-    /* font size */
-    --navbar-menu-link-fontsize: 55px;
-    --text-verylarge-fontsize: 15rem;
-    --text-normal-fontsize: 1rem;
-    --text-h1-fontsize: 7rem;
-    --text-h2-fontsize: 5rem;
-    --text-h3-fontsize: 3rem;
-    --text-h4-fontsize: 2rem;
-    --text-h5-fontsize: 1.5rem;
-    --text-para-fontsize: 18px;
+    /* navbar */
+    --navbar-logo-fontsize-one: 40px;
+    --navbar-top: 30px;
+    --navbar-logo-fontsize-two: 14px;
+    --navbar-menu-close-btn-size: 45px;
+    --navbar-toggle-postion-right: 30px;
+    --navbar-toggle-postion-top: 30px;
 
-    /* hero */
-    --hero-herocontact-link-bottom: 50px;
-    --hero-herocontact-link-right: 50px;
+    /* footer */
+    --footer-logo-fontsize-one: 40px;
+    --footer-logo-fontsize-two: 14px;
+
+    /* font size */
+    --navbar-menu-link-fontsize: 40px;
+    --text-verylarge-fontsize: 16rem;
+    --text-normal-fontsize: 1rem;
+    --text-h1-fontsize: 9rem;
+    --text-h2-fontsize: 6rem;
+    --text-h3-fontsize: 4rem;
+    --text-h4-fontsize: 2.5rem;
+    --text-h5-fontsize: 1.5rem;
+    --text-h6-fontsize: 1.2rem;
+    --text-para-fontsize: 18px;
 
     /* why us */
     --whyus-radius: 50% 50% 0 0;
@@ -486,19 +500,19 @@
     --whyus-card-radius: 100%;
 
     /* mediacard */
-    --mediacard-image-height: 280px;
+    --mediacard-image-height: 340px;
     --mediacard-radius: 10px;
     --mediacard-margin-top: 80px;
 
     /* content height */
-    --inner-height: 450px;
-    --about-height: 80vh;
+    --inner-height: 90vh;
+    --about-height: 90vh;
 
     /* contact */
     --contact-map-height: 620px;
 
     /* about lagacy */
-    --about-lagacy-year-width: 150px;
+    --about-lagacy-year-width: 200px;
     --about-lagacy-para-right: 50px;
 
     /* accordion */
@@ -511,7 +525,7 @@
     --teamcard-height: 400px;
 
     /* sticky card */
-    --sticky-card-height: 85vh;
+    --sticky-card-height: 90vh;
 
     /* property  */
     --property-filter-width: 220px;
@@ -524,26 +538,30 @@
     --propertycard-grid: 1fr 1.5fr;
     --propertycard-gap: 30px;
 
-    /* navbar */
-    --navbar-toggle-postion-right: 30px;
-    --navbar-toggle-postion-top: 30px;
+    /* space */
+    --section-space-large: 90px 0;
+    --section-spcae-top-large: 90px 0 0;
+    --space-content: 40px 0;
+    --space-content-bottom: 0 0 40px;
+    --space-content-top: 40px 0 0;
   }
 }
 
 @media (min-width: 1280px) and (max-width: 1599.98px) {
   :root {
     /* container */
-    --container-width: 1152px;
+    --container-width: 1440px;
 
     /* font size */
-    --navbar-menu-link-fontsize: 60px;
-    --text-verylarge-fontsize: 18rem;
+    --navbar-menu-link-fontsize: 50px;
+    --text-verylarge-fontsize: 20rem;
     --text-normal-fontsize: 1rem;
-    --text-h1-fontsize: 8rem;
-    --text-h2-fontsize: 5.5rem;
-    --text-h3-fontsize: 4.5rem;
-    --text-h4-fontsize: 2.5rem;
-    --text-h5-fontsize: 1.3rem;
+    --text-h1-fontsize: 10rem;
+    --text-h2-fontsize: 7rem;
+    --text-h3-fontsize: 5rem;
+    --text-h4-fontsize: 3.5rem;
+    --text-h5-fontsize: 2rem;
+    --text-h6-fontsize: 1.5rem;
     --text-para-fontsize: 18px;
 
     /* hero */
@@ -554,18 +572,18 @@
     --whyus-scroll-radius: 200px 200px 0 0;
 
     /*why us card */
-    --whyuscard-size: 340px;
+    --whyuscard-size: 370px;
     --whyuscard-padding: 30px;
 
     /* mediacard */
-    --mediacard-image-height: 280px;
+    --mediacard-image-height: 370px;
 
     /* contact */
-    --contact-map-height: 650px;
+    --contact-map-height: 750px;
 
     /* about lagacy */
-    --about-lagacy-image-width: 28%;
-    --about-lagacy-year-width: 150px;
+    --about-lagacy-image-width: 30%;
+    --about-lagacy-year-width: 200px;
     --about-lagacy-year-left: 12%;
     --about-lagacy-para-right: 100px;
 
@@ -582,42 +600,59 @@
     --propertycard-grid: 1fr 1.5fr;
 
     /* navbar */
-    --navbar-toggle-postion-right: 40px;
-    --navbar-toggle-postion-top: 40px;
+    --navbar-toggle-postion-right: 30px;
+    --navbar-toggle-postion-top: 30px;
+    --navbar-top: 30px;
+    --navbar-menu-close-btn-fontsize: 25px;
+    --navbar-logo-fontsize-one: 40px;
+    --navbar-menu-close-btn-size: 50px;
+    --navbar-logo-fontsize-two: 15px;
+
+    /* footer */
+    --footer-logo-fontsize-one: 40px;
+    --footer-logo-fontsize-two: 15px;
 
     /* content height */
-    --inner-height: 500px;
-    --about-height: 85vh;
+    --inner-height: 90vh;
+    --about-height: 90vh;
 
     /* team card */
-    --teamcard-height: 480px;
+    --teamcard-height: 500px;
 
     /* sticky card */
     --sticky-card-height: 90vh;
+
+    /* space */
+    --section-space-large: 100px 0;
+    --section-spcae-top-large: 100px 0 0;
+    --space-content: 50px 0;
+    --space-content-bottom: 0 0 50px;
+    --space-content-top: 50px 0 0;
   }
 }
 
 @media (min-width: 1600px) and (max-width: 1919.98px) {
   :root {
-    --container-width: 1280px;
+    --container-width: 1580px;
   }
 }
 
 @media (min-width: 1920px) and (max-width: 2559.98px) {
   :root {
-    --container-width: 1440px;
+    --container-width: 1680px;
   }
 }
 
 @media (min-width: 2560px) {
   :root {
-    --container-width: 1536px;
+    --container-width: 1680px;
 
     /* sticky card */
     --sticky-card-height: 80vh;
 
     /* content height */
-    --about-height: 90vh;
+    --inner-height: 80vh;
+    --about-height: 80vh;
 
     /* team card */
     --teamcard-width: 550px;

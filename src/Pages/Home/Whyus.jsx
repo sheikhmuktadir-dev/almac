@@ -36,8 +36,7 @@ export default function Whyus() {
               whyScroll ? Style.whyUsMainHeadingVisible : ""
             }`}
           >
-            <span>{heading?.line1 || "Why Almac"}</span>
-            <span>{heading?.line2 || "Stands Apart"}</span>
+            {heading?.line1 || "Why Almac"}
           </h2>
 
           <p className={Style.centerMainPara}>

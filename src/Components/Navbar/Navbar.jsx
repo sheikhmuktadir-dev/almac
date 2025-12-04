@@ -12,7 +12,7 @@ export default function Navbar() {
   const location = useLocation();
 
   // nav link color according to pages
-  const bgPages = ["/properties", "/contact", "/details"];
+  const bgPages = ["/contact", "/details"];
 
   const isWhiteLink =
     location.pathname === "/" ||
@@ -91,7 +91,6 @@ export default function Navbar() {
         }`}
         onClick={() => setMenuOpen(true)}
       >
-        <span>Menu</span>
         <HiOutlineMenuAlt4 />
       </button>
 

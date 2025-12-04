@@ -9,16 +9,10 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function DetailsList({ data }) {
   return (
     <Section>
-      <a
-        href="https://wa.me/911234567890?text=Hello%2C+I+want+to+know+more+about+the+property"
-        className={Style.detailsListWhatapp}
-      >
-        <FaWhatsapp />
-      </a>
       <div className={Style.detailsList}>
         <Container>
           <div className={Style.detailsListTop}>
-            <h5>{data?.location || "No Location"}</h5>
+            <h6>{data?.location || "No Location"}</h6>
             <div className={Style.detailsListTopFlex}>
               <h4>{data?.title || "No Title"}</h4>
               <h4>{data?.price || "No Price"}</h4>
@@ -28,43 +22,43 @@ export default function DetailsList({ data }) {
           <div className={Style.detailsListMain}>
             <div className={Style.detailsListMainLeft}>
               <div className={Style.detailsListBox}>
-                <h4>Details</h4>
+                <h5>Details</h5>
                 <div className={Style.detailsListAmenitiesFlex}>
                   <div className={Style.detailsAminities}>
-                    <h5>
+                    <h6>
                       <SlHome />
-                    </h5>
-                    <h5>
+                    </h6>
+                    <h6>
                       {data?.propertyType || "No Property Type Available"}
-                    </h5>
+                    </h6>
                   </div>
 
                   <div className={Style.detailsAminities}>
-                    <h5>
+                    <h6>
                       <LuBedDouble />
-                    </h5>
-                    <h5>{data?.bedrooms || "No Bedroom Available"}</h5>
+                    </h6>
+                    <h6>{data?.bedrooms || "No Bedroom Available"}</h6>
                   </div>
 
                   <div className={Style.detailsAminities}>
-                    <h5>
+                    <h6>
                       <LiaVectorSquareSolid />
-                    </h5>
-                    <h5>
+                    </h6>
+                    <h6>
                       {data?.areaSqft || "No"}
                       <span style={{ paddingLeft: "5px" }}>Sq.ft</span>
-                    </h5>
+                    </h6>
                   </div>
 
                   <div className={Style.detailsAminities}>
-                    <h5>Status</h5>
-                    <h5>{data?.status || "No Status"}</h5>
+                    <h6>Status</h6>
+                    <h6>{data?.status || "No Status"}</h6>
                   </div>
                 </div>
               </div>
 
               <div className={Style.detailsListBox}>
-                <h4>Amenities</h4>
+                <h5>Amenities</h5>
                 <ul className={Style.detailsListOrder}>
                   {data?.amenities?.map((item, index) => {
                     return (
@@ -77,7 +71,7 @@ export default function DetailsList({ data }) {
                           className={Style.amenitiesIcon}
                           alt="amenities icon"
                         />
-                        <h5>{item.label || "Not Found"}</h5>
+                        <h6>{item.label || "Not Found"}</h6>
                       </li>
                     );
                   })}
@@ -85,16 +79,16 @@ export default function DetailsList({ data }) {
               </div>
 
               <div className={Style.detailsListBox}>
-                <h4>Payment Plan</h4>
+                <h5>Payment Plan</h5>
                 <div className={Style.detailsListpayPlanArea}>
                   {data?.paymentPlan?.map((list) => {
                     return (
                       <div className={Style.payPlanFlex}>
-                        <h5 className={Style.payPlanHeading}>
+                        <h6 className={Style.payPlanHeading}>
                           {list.installment || "Not Available"}
-                        </h5>
-                        <h5>{list.percentage || "Not Available"}</h5>
-                        <h5>{list.amount || "Not Available"}</h5>
+                        </h6>
+                        <h6>{list.percentage || "Not Available"}</h6>
+                        <h6>{list.amount || "Not Available"}</h6>
                       </div>
                     );
                   })}
@@ -103,7 +97,7 @@ export default function DetailsList({ data }) {
             </div>
             <div className={Style.detailsListMainRight}>
               <div className={Style.detailsListBox}>
-                <h4>Floor Plan</h4>
+                <h5>Floor Plan</h5>
                 <a
                   href={data?.floorPlan}
                   target="_blank"
@@ -113,7 +107,7 @@ export default function DetailsList({ data }) {
                 </a>
               </div>
               <div className={Style.detailsListBox}>
-                <h4>Location</h4>
+                <h5>Location</h5>
                 <iframe
                   title="property location"
                   src={data?.mapIframe || ""}
@@ -124,6 +118,15 @@ export default function DetailsList({ data }) {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 />
+              </div>
+              <div className={Style.detailsListBox}>
+                <a
+                  href="https://wa.me/911234567890?text=Hello%2C+I+want+to+know+more+about+the+property"
+                  className={Style.detailsListWhatapp}
+                >
+                  <span>Whatsapp</span>
+                  <FaWhatsapp />
+                </a>
               </div>
             </div>
           </div>

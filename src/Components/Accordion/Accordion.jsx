@@ -30,7 +30,7 @@ export default function Accordion({ data }) {
               }`}
             >
               <div className={Style.accordionContentInner}>
-                <h5 className={Style.accordionPara}>{item.content}</h5>
+                <h6 className={Style.accordionPara}>{item.content}</h6>
               </div>
             </div>
           </div>

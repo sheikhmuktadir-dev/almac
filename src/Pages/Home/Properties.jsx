@@ -18,9 +18,9 @@ export default function Properties({ property }) {
     <Section>
       <div className={Style.propertiesMain}>
         <Container>
-          <h4 className={Style.propertyMainHeading}>
+          <h5 className={Style.propertyMainHeading}>
             {heading?.headingmain || "Our Luxury Properties"}
-          </h4>
+          </h5>
         </Container>
 
         <div className={Style.propertiesMainCardArea}>

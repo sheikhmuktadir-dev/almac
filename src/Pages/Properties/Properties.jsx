@@ -78,7 +78,7 @@ export default function Properties() {
 
   return (
     <>
-      <PropertiesBanner />
+      {/* <PropertiesBanner /> */}
       <PropertiesList
         innerSearch={innerSearch}
         setInnerSearch={setInnerSearch}

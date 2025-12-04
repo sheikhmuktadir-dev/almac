@@ -21,10 +21,10 @@ export default function TopSearch({
           className={Style.searchBox}
         />
       </div>
-      <h5 className={Style.propertiesContentHeadingLength}>
+      <h6 className={Style.propertiesContentHeadingLength}>
         {searchFilter?.length || 0}
         <span>Properties</span>
-      </h5>
+      </h6>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import Section from "../../Components/Section/Section";
 import Style from "./contact.module.css";
-import contactImage from "/images/other/view.webp";
+import contactImage from "/images/property/property3.webp";
 import Container from "../../Components/Container/Container";
 import { contactDetails } from "../../Data/DataMain";
 import NotFound from "../../Components/ErrorHandler/NotFound";
@@ -19,7 +19,7 @@ export default function Contact() {
       <Container>
         <div className={Style.contactGrid}>
           <div className={Style.contactBoxArea}>
-            <h4>Contact Us</h4>
+            <h3>Contact Us</h3>
 
             {contactDetails.length > 0 ? (
               <>
@@ -34,10 +34,10 @@ export default function Contact() {
                       <div className={Style.contactText}>
                         <label>{list?.labels}</label>
                         {list.labels === "Address" ? (
-                          <h5>{list.value}</h5>
+                          <h6>{list.value}</h6>
                         ) : (
                           <a href={list.link}>
-                            <h5>{list.value || "No Data"}</h5>
+                            <h6>{list.value || "No Data"}</h6>
                           </a>
                         )}
                       </div>

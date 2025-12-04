@@ -152,9 +152,9 @@
   text-align: center;
   flex: none;
   max-width: 100%;
-  padding: var(--button-padding-one);
+  padding: var(--button-padding-two);
   width: 100%;
-  height: var(--button-height-one);
+  height: var(--button-height-two);
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: var(--font-weight-600);
@@ -165,22 +165,23 @@
 }
 
 .detailsListWhatapp {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
-  width: 60px;
-  height: 60px;
-  background: #25d366;
+  position: relative;
+  height: var(--button-height-two);
+  background: var(--gold-background);
   color: #fff;
   border-radius: var(--button-radius);
   display: inline-flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   z-index: 40;
   text-align: center;
-  font-size: var(--text-h5-fontsize);
   line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+  gap: 15px;
   flex: none;
+  padding: var(--button-padding-two);
 }
 
 .amenitiesIcon {
@@ -214,13 +215,6 @@
     flex-wrap: wrap;
   }
 
-  .detailsListWhatapp {
-    right: 15px;
-    width: 45px;
-    height: 45px;
-    bottom: 20px;
-  }
-
   .detailsListMainLeft {
     padding: 0;
   }
@@ -245,19 +239,5 @@
 
   .payPlanHeading {
     max-width: 200px;
-  }
-
-  .detailsListWhatapp {
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    bottom: 30px;
-  }
-}
-
-@media (min-width: 1280px) and (max-width: 1599.98px) {
-  .detailsListWhatapp {
-    right: 40px;
-    bottom: 40px;
   }
 }

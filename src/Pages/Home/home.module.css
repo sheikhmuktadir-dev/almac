@@ -3,6 +3,9 @@
   width: 100%;
   background: var(--white-background);
   height: var(--hero-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .heroMain::after {
@@ -30,6 +33,7 @@
   height: 100%;
   max-width: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .heroContentArea {
@@ -62,14 +66,14 @@
   font-size: var(--text-verylarge-fontsize);
   opacity: 1;
   font-family: var(--font-main);
-  letter-spacing: -8px;
+  letter-spacing: -12px;
   transition: all 0.4s ease-out;
 }
 
 .heroTextTwo {
   bottom: -80px;
   font-size: var(--text-verylarge-fontsize);
-  letter-spacing: -8px;
+  letter-spacing: -12px;
   font-family: var(--font-main);
   opacity: 0;
   transition: all 0.4s ease-out;
@@ -87,8 +91,10 @@
 
 .scrollDown {
   position: absolute;
-  bottom: 50px;
+  bottom: 20px;
   gap: 15px;
+  width: 100%;
+  z-index: 20;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,24 +109,6 @@
 .scrollDownText {
   color: var(--white-color);
   text-transform: uppercase;
-}
-
-.heroContact {
-  position: absolute;
-  right: var(--hero-herocontact-link-right);
-  bottom: var(--hero-herocontact-link-bottom);
-  z-index: 20;
-  display: flex;
-  align-items: end;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.heroContactLink {
-  color: var(--white-color);
-  text-transform: uppercase;
-  font-size: var(--text-para-fontsize);
-  text-decoration: underline;
 }
 
 /* ********************************************************************* hero end *************************************** */
@@ -145,13 +133,11 @@
 .whyUsMainHeading {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   opacity: 0;
+  text-transform: uppercase;
   transition: opacity 0.3s ease;
-}
-
-.whyUsMainHeading span:last-child {
-  margin-left: var(--whyus-heading-left-space);
 }
 
 .whyUsMainHeadingVisible {
@@ -225,11 +211,9 @@
 .mediaMainHeading {
   position: relative;
   display: flex;
-  flex-direction: column;
-}
-
-.mediaMainHeading span:last-child {
-  margin-left: 150px;
+  justify-content: center;
+  flex-direction: row;
+  text-transform: uppercase;
 }
 
 .mediaCardArea {
@@ -254,23 +238,15 @@
 
 @media (max-width: 767.98px) {
   .heroTextOne {
-    letter-spacing: -4px;
+    letter-spacing: -5px;
   }
 
   .heroTextTwo {
-    letter-spacing: -4px;
+    letter-spacing: -5px;
   }
 
-  .heroContact {
-    left: 50%;
-    top: 60%;
-    max-width: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: 0;
-    transform: translate(-50%, -40%);
+  .centerMainPara {
+    text-align: center;
   }
 
   /* hero end ***************** */
@@ -282,23 +258,6 @@
   .mediaMainHeading span:last-child {
     margin-left: 0;
   }
-
-  .mediaCardArea {
-    position: relative;
-    display: grid;
-    align-items: start;
-    gap: 20px;
-    grid-template-columns: repeat(1, 1fr);
-    padding: var(--space-content-top);
-  }
-
-  .mediaCardArea {
-    display: none;
-  }
-
-  .mediaMobile {
-    display: block;
-  }
 }
 
 @media (max-width: 1023.98px) {
@@ -307,29 +266,12 @@
     letter-spacing: -4px;
   }
 
-  .heroContact {
-    left: 50%;
-    top: 60%;
-    max-width: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: 0;
-    transform: translate(-50%, -40%);
+  .centerMainPara {
+    text-align: center;
   }
 
   .mediaMainHeading span:last-child {
     margin-left: 0;
-  }
-
-  .mediaCardArea {
-    position: relative;
-    display: none;
-  }
-
-  .mediaMobile {
-    display: block;
   }
 }
 
@@ -339,10 +281,11 @@
   }
 
   .mediaCardArea {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    align-items: start;
-    padding: var(--space-content-top);
+    display: none;
+  }
+
+  .mediaMobile {
+    display: block;
   }
 }
 
@@ -352,9 +295,10 @@
   }
 
   .mediaCardArea {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    align-items: start;
-    padding: var(--space-content-top);
+    display: none;
+  }
+
+  .mediaMobile {
+    display: block;
   }
 }

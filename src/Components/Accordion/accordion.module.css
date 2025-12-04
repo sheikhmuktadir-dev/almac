@@ -24,7 +24,7 @@
   line-height: 1;
   color: var(--gray-light-color);
   transition: all 0.3s ease;
-  font-size: var(--text-h2-fontsize);
+  font-size: var(--text-h3-fontsize);
 }
 
 .accordionButton span:first-child {
@@ -80,4 +80,16 @@
   max-width: var(--accordion-image-width);
   width: 100%;
   object-fit: contain;
+}
+
+@media (max-width: 1023.98px) {
+  .accordionContentShow {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+  .accordionContentShow {
+    max-width: 600px;
+  }
 }

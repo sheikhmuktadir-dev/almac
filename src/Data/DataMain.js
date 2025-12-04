@@ -6,11 +6,6 @@ export const heroData = {
 
   image: "/images/hero/hero.webp",
   scrollIcon: "/images/other/ic-mouse.svg",
-
-  contact: {
-    phone: "+971587772622",
-    email: "hey@almacgroup.com",
-  },
 };
 
 export const whyUsData = {
@@ -24,19 +19,22 @@ export const whyUsData = {
 
   cards: [
     {
-      icon: "/images/icons/target.png",
-      title: "Expert Guidance",
-      description: "Smart insights to help you choose the right property.",
+      icon: "/images/icons/sketch.png",
+      title: "Craftsmanship",
+      description:
+        "Meticulous attention to every detail, from premium finishes to precision engineering.",
     },
     {
-      icon: "/images/icons/hands.png",
-      title: "Tailored Service",
-      description: "Personalized support built around your needs.",
+      icon: "/images/icons/green-home.png",
+      title: "Thoughtful Design",
+      description:
+        "Smart layouts, functional spaces, and luxurious aesthetics.",
     },
     {
-      icon: "/images/icons/burj-al-arab.png",
-      title: "Curated Premium Homes",
-      description: "Only high-quality, handpicked properties.",
+      icon: "/images/icons/medal.png",
+      title: "Signature Quality",
+      description:
+        "High-quality materials, verified approvals, and on-time delivery.",
     },
   ],
 };
@@ -54,7 +52,7 @@ export const propertiesData = {
 export const mediaData = {
   heading: {
     line1: "Developer",
-    line2: "News & Media",
+    line2: "Media Center",
   },
 
   description:
@@ -70,15 +68,15 @@ export const mediaData = {
       id: 1,
       date: "10 Sep 2025",
       image: "/images/media/media1.webp",
-      title: "AquaCrest Reveals Its Elegant Community Entrance",
-      link: "/media/aquacrest-community-entrance",
+      title: "Almac Reveals Its Elegant Community Entrance",
+      link: "/media/almac-community-entrance",
     },
     {
       id: 2,
       date: "21 Aug 2025",
       image: "/images/media/media2.webp",
-      title: "AquaCrest Showcases Breathtaking Balcony Views",
-      link: "/media/aquacrest-balcony-views",
+      title: "Almac Showcases Breathtaking Balcony Views",
+      link: "/media/almac-balcony-views",
     },
     {
       id: 3,
@@ -92,7 +90,6 @@ export const mediaData = {
 
 export const legacyData = {
   banner: "/images/about/lagacybanner.webp",
-  dotBg: "/images/other/uaemap.png",
 
   years: {
     count: 30,
