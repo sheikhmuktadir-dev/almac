@@ -75,7 +75,8 @@ export const mediaData = {
       id: 2,
       date: "21 Aug 2025",
       image: "/images/media/media2.webp",
-      title: "Almac Showcases Breathtaking Balcony Views",
+      title:
+        "Almac Engages Industry Leaders to Shape the Future of Modern Living",
       link: "/media/almac-balcony-views",
     },
     {

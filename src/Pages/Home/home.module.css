@@ -91,7 +91,7 @@
 
 .scrollDown {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   gap: 15px;
   width: 100%;
   z-index: 20;
@@ -115,7 +115,7 @@
 
 .whyUsMain {
   position: relative;
-  max-width: 80%;
+  max-width: 70%;
   background: var(--white-background);
   width: 100%;
   margin: 0 auto;
