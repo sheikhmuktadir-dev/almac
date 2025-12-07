@@ -237,6 +237,22 @@
 }
 
 @media (max-width: 767.98px) {
+  .heroTextTwo {
+    bottom: -75px;
+    opacity: 1;
+    font-size: var(--text-h1-fontsize);
+  }
+
+  .heroTextOne.scrolled {
+    bottom: 75px;
+    opacity: 1;
+  }
+
+  .heroTextTwo.scrolled {
+    bottom: 0;
+    opacity: 1;
+  }
+
   .heroTextOne {
     letter-spacing: -5px;
   }

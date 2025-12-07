@@ -16,8 +16,8 @@ export default function Slider({ children, duration, totalSlide, space }) {
       grabCursor={true}
       slidesPerGroup={1}
       breakpoints={{
-        320: { slidesPerView: 1.1 },
-        481: { slidesPerView: 1.5 },
+        320: { slidesPerView: 1 },
+        481: { slidesPerView: 1.3 },
         768: { slidesPerView: totalSlide },
         1280: { slidesPerView: totalSlide },
       }}
