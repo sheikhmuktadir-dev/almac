@@ -153,3 +153,39 @@ h6 {
   width: 25px !important;
   height: 25px !important;
 }
+
+.mobileBottomContact {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  max-width: 100%;
+  bottom: 0;
+  height: 60px;
+  background: rgba(20, 20, 20, 0.7);
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+
+.mobileBottomText {
+  position: relative;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.mobileBottomText:first-child {
+  border-right: 1px solid #fff;
+}
+
+@media (max-width: 767.98px) {
+  .mobileBottomContact {
+    display: flex;
+  }
+}

@@ -2,6 +2,8 @@ import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
+import { FiPhoneCall } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Layout() {
   const { pathname } = useLocation();
@@ -17,6 +19,19 @@ export default function Layout() {
         <Outlet />
       </main>
       <Footer />
+      <div className="mobileBottomContact">
+        <a href="tel:+971587772622" className="mobileBottomText">
+          <span>Call Back</span>
+          <FiPhoneCall />
+        </a>
+        <a
+          href="https://wa.me/911234567890?text=Hello%2C+I+want+to+know+more+about+the+property"
+          className="mobileBottomText"
+        >
+          <span>Whatsapp</span>
+          <FaWhatsapp />
+        </a>
+      </div>
     </>
   );
 }
