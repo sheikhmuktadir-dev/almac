@@ -24,7 +24,7 @@ export default function Layout() {
         <Container>
           <div className="mobileBottomContactFlex">
             <a href="tel:+971587772622" className="mobileBottomText">
-              <span>Call Us Now</span>
+              <span>Reach Out</span>
               <FiPhoneCall />
             </a>
             <a
