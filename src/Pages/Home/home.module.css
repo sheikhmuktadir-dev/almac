@@ -244,7 +244,7 @@
   .heroTextTwo {
     opacity: 1;
     font-size: var(--text-h1-fontsize);
-    bottom: -40px;
+    bottom: -30px;
   }
 
   .heroTextOne.scrolled {
@@ -253,7 +253,7 @@
   }
 
   .heroTextTwo.scrolled {
-    bottom: -40px;
+    bottom: -30px;
     opacity: 1;
   }
 
