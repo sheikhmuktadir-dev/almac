@@ -4,7 +4,11 @@ export const heroData = {
 
   scrollText: "Scroll to Explore",
 
-  image: "/images/hero/hero.webp",
+  image: [
+    "/images/hero/hero.webp",
+    "/images/hero/hero2.webp",
+    "/images/hero/hero3.webp",
+  ],
   scrollIcon: "/images/other/ic-mouse.svg",
 };
 

@@ -2,30 +2,40 @@ import Section from "../../Components/Section/Section";
 import Style from "./home.module.css";
 import { useEffect, useState } from "react";
 import { heroData } from "../../Data/DataMain";
-import heroImage from "/images/hero/hero.webp";
+import heroFallback from "/images/hero/hero.webp";
 import scrollImage from "/images/other/ic-mouse.svg";
 import Container from "../../Components/Container/Container";
 
 export default function Hero() {
   const [isScrolled, setIsScroll] = useState(false);
+  const [randomHero, setRandomHero] = useState(null);
 
+  const { titleOne, titleTwo, scrollText, image, scrollIcon } = heroData;
+
+  // Pick random image on refresh
   useEffect(() => {
-    const navScrollHandler = () => {
+    if (Array.isArray(image) && image.length > 0) {
+      const randomIndex = Math.floor(Math.random() * image.length);
+      setRandomHero(image[randomIndex]);
+    }
+  }, []);
+
+  // Scroll effect
+  useEffect(() => {
+    const heroScrollHandler = () => {
       setIsScroll(window.scrollY > 10);
     };
 
-    document.addEventListener("scroll", navScrollHandler);
-    return () => document.removeEventListener("scroll", navScrollHandler);
+    document.addEventListener("scroll", heroScrollHandler);
+    return () => document.removeEventListener("scroll", heroScrollHandler);
   }, []);
-
-  const { titleOne, titleTwo, scrollText, image, scrollIcon } = heroData;
 
   return (
     <Section position="sectionSticky">
       <div className={Style.heroMain}>
         <div className={Style.heroImageArea}>
           <img
-            src={image || heroImage}
+            src={randomHero || heroFallback}
             alt="hero image"
             loading="lazy"
             className={Style.heroImageMain}
@@ -41,6 +51,7 @@ export default function Hero() {
             >
               {titleOne || "Almac"}
             </div>
+
             <div
               className={`${Style.heroTextTwo} ${
                 isScrolled ? Style.scrolled : ""
