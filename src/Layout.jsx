@@ -21,7 +21,7 @@ export default function Layout() {
       <Footer />
       <div className="mobileBottomContact">
         <a href="tel:+971587772622" className="mobileBottomText">
-          <span>Call Back</span>
+          <span>Call Us Now</span>
           <FiPhoneCall />
         </a>
         <a

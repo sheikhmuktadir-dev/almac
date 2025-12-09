@@ -163,6 +163,7 @@ h6 {
   height: 60px;
   background: rgba(20, 20, 20, 0.7);
   display: none;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5px 20px;
@@ -173,15 +174,17 @@ h6 {
   position: relative;
   color: #fff;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   width: 100%;
   gap: 15px;
 }
 
 .mobileBottomText:first-child {
   border-right: 1px solid #fff;
+  justify-content: start;
+}
+
+.mobileBottomText:last-child {
+  justify-content: end;
 }
 
 @media (max-width: 767.98px) {
