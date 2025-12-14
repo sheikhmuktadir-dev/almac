@@ -86,6 +86,7 @@ export default function Navbar() {
 
       {/* navbar toggle btn */}
       <button
+        type="button"
         className={`${Style.navbarToggle} ${
           navScroll ? Style.navbarToggleVisible : ""
         }`}

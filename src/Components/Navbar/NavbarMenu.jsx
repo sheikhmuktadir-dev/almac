@@ -22,6 +22,7 @@ export default function NavbarMenu({ setMenuOpen, menuOpen }) {
 
           {/* navbar menu close btn */}
           <button
+            type="button"
             className={Style.navbarToggleClose}
             onClick={() => setMenuOpen(false)}
           >
